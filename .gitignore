@@ -1,0 +1,12 @@
+**/node_modules/
+**/dist/
+**/target/
+**/.env
+**/.env.*
+!**/.env.example
+**/uploads/
+**/coverage/
+**/*.tsbuildinfo
+*.log
+.DS_Store
+Thumbs.db

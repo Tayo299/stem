@@ -1,0 +1,242 @@
+[
+  {
+    "prompt": "MATH: Add the binary number 110₂ and 011₂",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "1000₂",
+      "B": "0000₂",
+      "C": "111₂",
+      "D": "1011₂"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "The power house of a cell is known as —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Ribosome",
+      "B": "Cell",
+      "C": "Amoeba",
+      "D": "Zygote"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "The energy possessed by a body through a virtue of its motion is called —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Potential energy",
+      "B": "Mechanical energy",
+      "C": "Solar energy",
+      "D": "Nuclear energy"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "The ability or capability to do work is known as —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Workdone",
+      "B": "Power",
+      "C": "Catalyst",
+      "D": "Endothermic"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "A plant that has only one seed is called —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Dicotyledous Dicoyledon",
+      "B": "Biennial",
+      "C": "Annual",
+      "D": "Perennial"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "The physical component of a computing system is known as —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Software",
+      "B": "Hardware",
+      "C": "Mouse",
+      "D": "Printer"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "A — is a substance that speed up the rate of chemical reaction while remaining unchanged",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Endothermic",
+      "B": "Exothermic",
+      "C": "Organic compound",
+      "D": "Fermentation"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "The energy possessed by a body through a virtue of its position is known as —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Thermal energy",
+      "B": "Equilibrium",
+      "C": "Kinetic energy",
+      "D": "Chemical energy"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "— is an electronic machine that accepts data, process data and gives out meaningful information.",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Motor",
+      "B": "Scanner",
+      "C": "Joystick",
+      "D": "Mouse"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "A plant that has/contains two seeds is called —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Fermentation",
+      "B": "Decomposition",
+      "C": "Amino acid",
+      "D": "Protein"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "The computing devices that cannot be seen is known as —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Hardware",
+      "B": "Humanware",
+      "C": "Scanner",
+      "D": "Mouse"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "How many structural Isomer does butane (C₄H₁₀) have",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "1",
+      "D": "6"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "A viral disease of poultry is —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Aspergillosis",
+      "B": "Fowl pox",
+      "C": "Fungi",
+      "D": "Bacterial"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "If y is directly Proportional to x², if y = 2 when x = 3, Find y when x = 6",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "7",
+      "B": "6",
+      "C": "4",
+      "D": "3"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "Solve 2/3 of 4/9 + 10/15 - 4/6",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "5",
+      "B": "3 1/2",
+      "C": "17 1/3",
+      "D": "4"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "Find the relative molecular mass of Na₂CO₃.10H₂O (Na = 23, C = 12, O = 16, H = 1)",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "250",
+      "B": "180",
+      "C": "106",
+      "D": "200"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "The Oxidation number of Manganese in KMnO₄ is —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "+5",
+      "B": "-2",
+      "C": "+4",
+      "D": "+3"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "Vaccination Provides —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Natural active immunity",
+      "B": "Artificial Passive immunity",
+      "C": "Natural Passive immunity",
+      "D": "Immunity"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "Find the median of 3, 7, 19, 5, 8.",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "5.2",
+      "B": "7",
+      "C": "5",
+      "D": "4"
+    },
+    "anonymous": true
+  },
+  {
+    "prompt": "The vector transmits the malaria parasite in to the body is known as —",
+    "subject": "Anonymous",
+    "points": 1,
+    "options": {
+      "A": "Male anopheles mosquito",
+      "B": "tsetse fly",
+      "C": "Female aedes mosquito",
+      "D": "Drosium"
+    },
+    "anonymous": true
+  }
+]

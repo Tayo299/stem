@@ -1,0 +1,5202 @@
+[
+    {
+        "sourceNumber":  1,
+        "prompt":  "The force that keeps an object moving in a circle is directed:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Away from the centre",
+                        "B":  "Along the tangent only",
+                        "C":  "Towards the centre",
+                        "D":  "Vertically down only"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  2,
+        "prompt":  "During melting of pure ice, its temperature remains constant because energy is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Break intermolecular bonds",
+                        "B":  "Increase kinetic energy only",
+                        "C":  "Create mass",
+                        "D":  "Lower pressure"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  3,
+        "prompt":  "A soil pH below 7 indicates:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Salinity only",
+                        "B":  "Alkalinity",
+                        "C":  "Acidity",
+                        "D":  "Neutrality"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  4,
+        "prompt":  "A query in a database is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Delete hardware",
+                        "B":  "Create electricity",
+                        "C":  "Retrieve records matching conditions",
+                        "D":  "Increase monitor size"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  5,
+        "prompt":  "What is the formula of calcium oxide?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "CaO₂",
+                        "B":  "CaO",
+                        "C":  "Ca₂O₃",
+                        "D":  "Ca₂O"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  6,
+        "prompt":  "The pressure in a liquid increases with:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Container colour",
+                        "B":  "Depth",
+                        "C":  "Distance from Earth only",
+                        "D":  "Temperature only"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  7,
+        "prompt":  "The main purpose of galvanising iron is to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Protect it from corrosion",
+                        "B":  "Make it magnetic",
+                        "C":  "Increase its density",
+                        "D":  "Reduce its melting point"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  8,
+        "prompt":  "In a cross Bb × bb, what proportion of offspring are expected to be bb?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "0",
+                        "B":  "3/4",
+                        "C":  "1/2",
+                        "D":  "1/4"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  9,
+        "prompt":  "Find the median of 2, 4, 7, 9, 12.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "9",
+                        "B":  "7",
+                        "C":  "4",
+                        "D":  "6.8"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  10,
+        "prompt":  "Solve 5x - 9 = 26.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "x = 5",
+                        "B":  "x = 7",
+                        "C":  "x = 35",
+                        "D":  "x = 7/5"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  11,
+        "prompt":  "Value addition to cassava can include processing it into:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Garri",
+                        "B":  "Nitrogen gas",
+                        "C":  "Raw rainfall",
+                        "D":  "Fertiliser only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  12,
+        "prompt":  "A balanced ration supplies animals with:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only water",
+                        "B":  "Only carbohydrates",
+                        "C":  "Only protein",
+                        "D":  "All nutrients in correct proportions"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  13,
+        "prompt":  "HTML is mainly used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Structure web-page content",
+                        "B":  "Store databases only",
+                        "C":  "Encrypt files",
+                        "D":  "Style pages only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  14,
+        "prompt":  "CSS is mainly used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Control web-page presentation",
+                        "B":  "Replace HTML entirely",
+                        "C":  "Create hardware",
+                        "D":  "Run server databases"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  15,
+        "prompt":  "A bag has 3 red, 2 blue and 5 green balls. Probability of red is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "1/3",
+                        "B":  "3/10",
+                        "C":  "3/5",
+                        "D":  "7/10"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  16,
+        "prompt":  "Amplitude is the maximum displacement from:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Equilibrium position",
+                        "B":  "Wave speed",
+                        "C":  "Crest only",
+                        "D":  "Wavelength"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  17,
+        "prompt":  "The organ that removes urea from blood is the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Heart",
+                        "B":  "Kidney",
+                        "C":  "Lung",
+                        "D":  "Pancreas"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  18,
+        "prompt":  "In 2H₂ + O₂ → 2H₂O, how many moles of water form from 3 moles of oxygen when hydrogen is excess?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "6 mol",
+                        "B":  "3 mol",
+                        "C":  "1.5 mol",
+                        "D":  "4 mol"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  19,
+        "prompt":  "Ultrafiltration occurs in the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Ureter",
+                        "B":  "Collecting duct only",
+                        "C":  "Bladder",
+                        "D":  "Glomerulus"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  20,
+        "prompt":  "If A:B=3:5 and B:C=10:7, then A:B:C is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "3:10:7",
+                        "B":  "6:10:7",
+                        "C":  "3:5:7",
+                        "D":  "6:5:7"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  21,
+        "prompt":  "Encryption converts readable plaintext into:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Ciphertext",
+                        "B":  "Malware",
+                        "C":  "Hardware",
+                        "D":  "Source code only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  22,
+        "prompt":  "Which material is most suitable for a saucepan handle?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Iron",
+                        "B":  "Aluminium",
+                        "C":  "Wood",
+                        "D":  "Copper"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  23,
+        "prompt":  "A 50 N force moves a box 4 m. Work done is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "200 J",
+                        "B":  "54 J",
+                        "C":  "400 J",
+                        "D":  "12.5 J"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  24,
+        "prompt":  "Negative feedback keeps internal conditions:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Close to a set point",
+                        "B":  "Completely random",
+                        "C":  "Increasing without limit",
+                        "D":  "Independent of receptors"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  25,
+        "prompt":  "Differentiate y=5x³.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "15x³",
+                        "B":  "x⁴",
+                        "C":  "5x²",
+                        "D":  "15x²"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  26,
+        "prompt":  "cos 60° equals:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "0",
+                        "B":  "1/2",
+                        "C":  "1",
+                        "D":  "√3/2"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  27,
+        "prompt":  "A variable in a program stores:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "A value that can change",
+                        "B":  "A physical cable",
+                        "C":  "Only a printer setting",
+                        "D":  "A webpage colour only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  28,
+        "prompt":  "During electrolysis of molten lead(II) bromide, what forms at the cathode?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Oxygen",
+                        "B":  "Hydrogen",
+                        "C":  "Lead metal",
+                        "D":  "Bromine"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  29,
+        "prompt":  "Magnitude of vector (3,4) is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "12",
+                        "B":  "7",
+                        "C":  "25",
+                        "D":  "5"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  30,
+        "prompt":  "Mulching helps conserve soil moisture by reducing:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Evaporation",
+                        "B":  "Photosynthesis",
+                        "C":  "Nitrogen fixation",
+                        "D":  "Germination"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  31,
+        "prompt":  "Windbreaks can protect crops by reducing:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Wind speed and erosion",
+                        "B":  "Sunlight entirely",
+                        "C":  "Soil fertility",
+                        "D":  "Seed quality"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  32,
+        "prompt":  "Grading farm produce means sorting according to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Quality or size",
+                        "B":  "Market noise",
+                        "C":  "Field colour",
+                        "D":  "Owner’s name"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  33,
+        "prompt":  "ROM is mainly used to store:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Permanent startup instructions",
+                        "B":  "Temporary user data only",
+                        "C":  "Printed documents",
+                        "D":  "Internet signals"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  34,
+        "prompt":  "Methyl orange is red in:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Acidic solution",
+                        "B":  "Neutral sodium chloride only",
+                        "C":  "Distilled water only",
+                        "D":  "Alkaline solution"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  35,
+        "prompt":  "Which instrument measures atmospheric pressure?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Hygrometer",
+                        "B":  "Ammeter",
+                        "C":  "Barometer",
+                        "D":  "Thermometer"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  36,
+        "prompt":  "Density is mass divided by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Area",
+                        "B":  "Volume",
+                        "C":  "Weight",
+                        "D":  "Force"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  37,
+        "prompt":  "Afforestation means:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Burning forest",
+                        "B":  "Cutting all trees",
+                        "C":  "Harvesting timber only",
+                        "D":  "Planting trees in an area without forest"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  38,
+        "prompt":  "The products of fat digestion are fatty acids and:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Amino acids",
+                        "B":  "Glucose",
+                        "C":  "Maltose",
+                        "D":  "Glycerol"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  39,
+        "prompt":  "Brass is an alloy of copper and:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Iron",
+                        "B":  "Tin",
+                        "C":  "Aluminium",
+                        "D":  "Zinc"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  40,
+        "prompt":  "Which structure is present in plant cells but absent in animal cells?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Nucleus",
+                        "B":  "Cell wall",
+                        "C":  "Cell membrane",
+                        "D":  "Cytoplasm"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  41,
+        "prompt":  "Malware includes:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only spreadsheets",
+                        "B":  "Only keyboards",
+                        "C":  "Only printers",
+                        "D":  "Viruses and ransomware"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  42,
+        "prompt":  "Impulse is equal to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Force divided by time",
+                        "B":  "Change in mass",
+                        "C":  "Change in momentum",
+                        "D":  "Velocity divided by mass"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  43,
+        "prompt":  "Two 4 Ω resistors in parallel have equivalent resistance:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "2 Ω",
+                        "B":  "4 Ω",
+                        "C":  "16 Ω",
+                        "D":  "8 Ω"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  44,
+        "prompt":  "A nursery is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Raise young seedlings before transplanting",
+                        "B":  "Breed livestock",
+                        "C":  "Process milk",
+                        "D":  "Store harvested grain"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  45,
+        "prompt":  "A wheelbarrow is an example of a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Simple farm transport tool",
+                        "B":  "Power tiller",
+                        "C":  "Pesticide",
+                        "D":  "Irrigation system"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  46,
+        "prompt":  "The loudness of sound is related mainly to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Wavelength",
+                        "B":  "Frequency",
+                        "C":  "Echo time",
+                        "D":  "Amplitude"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  47,
+        "prompt":  "A food chain begins with a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Carnivore",
+                        "B":  "Decomposer",
+                        "C":  "Producer",
+                        "D":  "Parasite"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  48,
+        "prompt":  "Equation of horizontal line through y=6 is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "x + y = 6",
+                        "B":  "y = 6",
+                        "C":  "y = x + 6",
+                        "D":  "x = 6"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  49,
+        "prompt":  "Cloud storage stores data on:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Monitor memory",
+                        "B":  "Only RAM",
+                        "C":  "Remote internet-connected servers",
+                        "D":  "Paper files"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  50,
+        "prompt":  "The catalyst in the Haber process is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Nickel",
+                        "B":  "Manganese dioxide",
+                        "C":  "Platinum",
+                        "D":  "Iron"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  51,
+        "prompt":  "Quarantine is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Isolate new or sick animals",
+                        "B":  "Increase stocking rate",
+                        "C":  "Harvest crops",
+                        "D":  "Mix all animals"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  52,
+        "prompt":  "Hexadecimal digit A represents decimal:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "10",
+                        "B":  "16",
+                        "C":  "11",
+                        "D":  "8"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  53,
+        "prompt":  "A scanner is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Input printed images or text",
+                        "B":  "Store electricity",
+                        "C":  "Process instructions",
+                        "D":  "Output sound"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  54,
+        "prompt":  "A reducing agent is itself:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Oxidised",
+                        "B":  "Unchanged",
+                        "C":  "A catalyst",
+                        "D":  "Reduced"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  55,
+        "prompt":  "The exterior angle of a triangle equals the sum of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Two opposite interior angles",
+                        "B":  "Angles in a square",
+                        "C":  "All three interior angles",
+                        "D":  "One adjacent angle only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  56,
+        "prompt":  "A light dependent resistor has resistance that decreases when:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sound increases",
+                        "B":  "Light intensity increases",
+                        "C":  "Voltage is removed",
+                        "D":  "Temperature falls"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  57,
+        "prompt":  "The area of a circle radius 5 cm is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "5π cm²",
+                        "B":  "50π cm²",
+                        "C":  "25π cm²",
+                        "D":  "10π cm²"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  58,
+        "prompt":  "The hormone ADH increases water reabsorption in the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Skin",
+                        "B":  "Kidneys",
+                        "C":  "Lungs",
+                        "D":  "Stomach"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  59,
+        "prompt":  "Which energy change is positive for an endothermic reaction?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Charge gained",
+                        "B":  "Mass lost from products",
+                        "C":  "Energy absorbed from surroundings",
+                        "D":  "Energy released to surroundings"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  60,
+        "prompt":  "The pulmonary artery carries:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Oxygenated blood to lungs",
+                        "B":  "Deoxygenated blood to body",
+                        "C":  "Oxygenated blood to body",
+                        "D":  "Deoxygenated blood from heart to lungs"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  61,
+        "prompt":  "Power is the rate of doing:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Momentum",
+                        "B":  "Work",
+                        "C":  "Mass",
+                        "D":  "Pressure"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  62,
+        "prompt":  "A 2 kg object is raised 5 m. Take g = 10 N/kg. Gain in GPE is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "100 J",
+                        "B":  "10 J",
+                        "C":  "25 J",
+                        "D":  "50 J"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  63,
+        "prompt":  "Preventive maintenance of a tractor includes:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Overloading it",
+                        "B":  "Leaving it in rain",
+                        "C":  "Regular lubrication and servicing",
+                        "D":  "Removing oil"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  64,
+        "prompt":  "Multitasking allows an operating system to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Delete all files",
+                        "B":  "Run more than one program apparently at once",
+                        "C":  "Use one key only",
+                        "D":  "Print without drivers"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  65,
+        "prompt":  "A cell with many mitochondria is likely to require much:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Energy",
+                        "B":  "Cell wall material",
+                        "C":  "Chlorophyll",
+                        "D":  "Water storage only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  66,
+        "prompt":  "The mass number of an atom is the total number of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Neutrons and electrons",
+                        "B":  "Electrons and protons",
+                        "C":  "Electron shells",
+                        "D":  "Protons and neutrons"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  67,
+        "prompt":  "Solve 4(x - 2) = 20.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "x = 8",
+                        "B":  "x = 5",
+                        "C":  "x = 3",
+                        "D":  "x = 7"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  68,
+        "prompt":  "Binary uses base:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "8",
+                        "B":  "10",
+                        "C":  "16",
+                        "D":  "2"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  69,
+        "prompt":  "Crop rotation helps control pests because it:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Breaks their life cycles",
+                        "B":  "Increases erosion",
+                        "C":  "Eliminates rainfall",
+                        "D":  "Prevents germination always"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  70,
+        "prompt":  "Vitamin C deficiency causes:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Rickets",
+                        "B":  "Scurvy",
+                        "C":  "Anaemia",
+                        "D":  "Kwashiorkor"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  71,
+        "prompt":  "A farm budget is prepared mainly to estimate:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Rainfall only",
+                        "B":  "Soil pH only",
+                        "C":  "Animal breed only",
+                        "D":  "Expected income and expenditure"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  72,
+        "prompt":  "Coefficient of x in (x+2)² is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "8",
+                        "B":  "2",
+                        "C":  "1",
+                        "D":  "4"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  73,
+        "prompt":  "Lipase digests:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Protein",
+                        "B":  "Lipids",
+                        "C":  "DNA",
+                        "D":  "Starch"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  74,
+        "prompt":  "A feasible region is the set of points satisfying:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only objective function",
+                        "B":  "No inequalities",
+                        "C":  "One equation only",
+                        "D":  "All constraints"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  75,
+        "prompt":  "Nitrogen is relatively unreactive because of its:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Strong triple bond",
+                        "B":  "High density only",
+                        "C":  "Green colour",
+                        "D":  "Low boiling point only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  76,
+        "prompt":  "The output of a NOT gate when input is 0 is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "2",
+                        "B":  "0",
+                        "C":  "1",
+                        "D":  "Undefined"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  77,
+        "prompt":  "The law of reflection states angle of incidence equals:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Critical angle",
+                        "B":  "Angle of deviation",
+                        "C":  "Angle of reflection",
+                        "D":  "Angle of refraction"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  78,
+        "prompt":  "The small intestine is adapted for absorption by having:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "No blood supply",
+                        "B":  "Thick muscular walls only",
+                        "C":  "Villi",
+                        "D":  "A waxy cuticle"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  79,
+        "prompt":  "Which method separates two miscible liquids with close boiling points?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Decantation",
+                        "B":  "Fractional distillation",
+                        "C":  "Magnetic separation",
+                        "D":  "Filtration"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  80,
+        "prompt":  "Digital footprint refers to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Computer shoe size",
+                        "B":  "Hard disk capacity",
+                        "C":  "Trace of activities left online",
+                        "D":  "Network cable length"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  81,
+        "prompt":  "The area under a velocity-time graph gives:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Acceleration",
+                        "B":  "Force",
+                        "C":  "Displacement",
+                        "D":  "Speed only"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  82,
+        "prompt":  "Overfishing reduces fish population because fish are removed faster than they:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Reproduce",
+                        "B":  "Respire",
+                        "C":  "Feed",
+                        "D":  "Swim"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  83,
+        "prompt":  "Each interior angle of a regular hexagon is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "120°",
+                        "B":  "60°",
+                        "C":  "135°",
+                        "D":  "90°"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  84,
+        "prompt":  "In parallel circuits, potential difference across each branch is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "The same",
+                        "B":  "Added together",
+                        "C":  "Always zero",
+                        "D":  "Inversely proportional to current"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  85,
+        "prompt":  "Fermentation by yeast is used in making:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Bread",
+                        "B":  "Blood cells",
+                        "C":  "Chlorophyll",
+                        "D":  "Antibiotics only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  86,
+        "prompt":  "Which change slows the reaction between marble chips and hydrochloric acid?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Raising temperature",
+                        "B":  "Using larger marble chips",
+                        "C":  "Using powdered marble",
+                        "D":  "Increasing acid concentration"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  87,
+        "prompt":  "Antagonistic muscles work because one muscle:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Both contract equally always",
+                        "B":  "Produces blood",
+                        "C":  "Contracts while the other relaxes",
+                        "D":  "Both disappear"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  88,
+        "prompt":  "Find the 10th term of arithmetic sequence 4, 7, 10, ...",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "34",
+                        "B":  "28",
+                        "C":  "30",
+                        "D":  "31"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  89,
+        "prompt":  "How many molecules are in 0.50 mol of a substance? [Avogadro constant = 6.02 × 10²³ mol⁻¹]",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "1.20 × 10²⁴",
+                        "B":  "3.01 × 10²²",
+                        "C":  "6.02 × 10²²",
+                        "D":  "3.01 × 10²³"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  90,
+        "prompt":  "A disease that spreads rapidly among animals is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Contagious",
+                        "B":  "Nutritional only",
+                        "C":  "Hereditary only",
+                        "D":  "Non-infectious"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  91,
+        "prompt":  "Find the common ratio of 81, 27, 9, ...",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "-3",
+                        "B":  "3",
+                        "C":  "1/9",
+                        "D":  "1/3"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  92,
+        "prompt":  "A file extension commonly used for a Microsoft Word document is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  ".exe",
+                        "B":  ".docx",
+                        "C":  ".jpg",
+                        "D":  ".mp3"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  93,
+        "prompt":  "A silo is mainly used for storage of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Seedlings",
+                        "B":  "Milk",
+                        "C":  "Live fish",
+                        "D":  "Grains"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  94,
+        "prompt":  "Which salt is produced by nitric acid reacting completely with potassium hydroxide?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Potassium sulfate",
+                        "B":  "Sodium nitrate",
+                        "C":  "Potassium chloride",
+                        "D":  "Potassium nitrate"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  95,
+        "prompt":  "The mineral ion needed to make chlorophyll is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sodium",
+                        "B":  "Iodine",
+                        "C":  "Magnesium",
+                        "D":  "Calcium"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  96,
+        "prompt":  "JavaScript can be used in web pages to add:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only static printouts",
+                        "B":  "Physical memory",
+                        "C":  "Interactivity",
+                        "D":  "Paper storage"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  97,
+        "prompt":  "Which quantity is scalar?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Force",
+                        "B":  "Distance",
+                        "C":  "Velocity",
+                        "D":  "Displacement"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  98,
+        "prompt":  "Coronary arteries supply oxygenated blood to the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Kidneys",
+                        "B":  "Heart muscle",
+                        "C":  "Brain only",
+                        "D":  "Lungs"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  99,
+        "prompt":  "Which gas is present in the greatest proportion in dry air?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Nitrogen",
+                        "B":  "Oxygen",
+                        "C":  "Argon",
+                        "D":  "Carbon dioxide"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  100,
+        "prompt":  "A covalent bond is formed by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sharing neutrons",
+                        "B":  "Sharing electrons",
+                        "C":  "Transferring protons",
+                        "D":  "Losing all electrons"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  101,
+        "prompt":  "A primary key is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Print a database",
+                        "B":  "Uniquely identify each record",
+                        "C":  "Format a table",
+                        "D":  "Draw charts"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  102,
+        "prompt":  "The gradient of y=x²+2x at x=3 is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "6",
+                        "B":  "8",
+                        "C":  "5",
+                        "D":  "11"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  103,
+        "prompt":  "An item bought for ₦2,400 is sold for ₦3,000. Profit percentage is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "80%",
+                        "B":  "60%",
+                        "C":  "20%",
+                        "D":  "25%"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  104,
+        "prompt":  "An allele is an alternative form of a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Gene",
+                        "B":  "Cell",
+                        "C":  "Protein",
+                        "D":  "Chromosome pair only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  105,
+        "prompt":  "A carrier of a recessive genetic condition is usually:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Heterozygous",
+                        "B":  "Homozygous dominant",
+                        "C":  "Homozygous recessive and affected",
+                        "D":  "Without alleles"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  106,
+        "prompt":  "Electrolysis of concentrated aqueous sodium chloride produces chlorine at the anode because:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Water produces sodium",
+                        "B":  "Electrons are absent",
+                        "C":  "Chloride ions are discharged preferentially",
+                        "D":  "Sodium ions become chlorine"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  107,
+        "prompt":  "Which test confirms ammonium ions?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Add silver nitrate",
+                        "B":  "Warm with sodium hydroxide and test gas with damp red litmus",
+                        "C":  "Use limewater",
+                        "D":  "Add barium chloride"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  108,
+        "prompt":  "A 10 N force acts 0.30 m from a pivot at right angles. Moment is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "0.3 N m",
+                        "B":  "10.3 N m",
+                        "C":  "30 N m",
+                        "D":  "3.0 N m"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  109,
+        "prompt":  "Friction acts in a direction:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Same as motion always",
+                        "B":  "Towards the centre only",
+                        "C":  "Opposite to relative motion",
+                        "D":  "Vertically upward only"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  110,
+        "prompt":  "Which component performs arithmetic and logical operations?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Monitor",
+                        "B":  "ALU",
+                        "C":  "Mouse",
+                        "D":  "RAM"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  111,
+        "prompt":  "A black dull surface is a good:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Insulator only",
+                        "B":  "Absorber and emitter of radiation",
+                        "C":  "Conductor only",
+                        "D":  "Reflector only"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  112,
+        "prompt":  "Wi-Fi is a technology for:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Cooling processors",
+                        "B":  "Formatting disks",
+                        "C":  "Printing only",
+                        "D":  "Wireless local networking"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  113,
+        "prompt":  "Unlike magnetic poles:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Become neutral",
+                        "B":  "Repel",
+                        "C":  "Have no force",
+                        "D":  "Attract"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  114,
+        "prompt":  "The genotype of a person with blood group O is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "IᴬIᴬ",
+                        "B":  "ii",
+                        "C":  "IᴬIᴮ",
+                        "D":  "IᴮIᴮ"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  115,
+        "prompt":  "A shoot bends towards light because auxin accumulates more on the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Shaded side",
+                        "B":  "Xylem",
+                        "C":  "Lit side",
+                        "D":  "Root tip only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  116,
+        "prompt":  "The part of maize plant harvested as grain is the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Leaf",
+                        "B":  "Seed",
+                        "C":  "Root",
+                        "D":  "Stem"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  117,
+        "prompt":  "A saturated solution contains:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Maximum dissolved solute at a given temperature",
+                        "B":  "Undissolved gas only",
+                        "C":  "Only solvent",
+                        "D":  "No solute"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  118,
+        "prompt":  "Ethanoic acid belongs to the homologous series called:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Carboxylic acids",
+                        "B":  "Esters",
+                        "C":  "Alcohols",
+                        "D":  "Alkanes"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  119,
+        "prompt":  "If f(x)=2x+3, find f(4).",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "8",
+                        "B":  "10",
+                        "C":  "14",
+                        "D":  "11"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  120,
+        "prompt":  "Fixed cost remains unchanged in the short term regardless of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Depreciation",
+                        "B":  "Level of output",
+                        "C":  "Asset ownership",
+                        "D":  "Farm location"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  121,
+        "prompt":  "Which source is renewable?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Coal",
+                        "B":  "Solar energy",
+                        "C":  "Natural gas",
+                        "D":  "Petrol"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  122,
+        "prompt":  "Solve x + y = 11 and x - y = 5.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "x = 3, y = 8",
+                        "B":  "x = 8, y = 3",
+                        "C":  "x = 6, y = 5",
+                        "D":  "x = 8, y = 5"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  123,
+        "prompt":  "A 600 N force acts on a 120 kg object. Its acceleration is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "0.2 m/s²",
+                        "B":  "72 m/s²",
+                        "C":  "5 m/s²",
+                        "D":  "720 m/s²"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  124,
+        "prompt":  "A backup is a copy of data kept for:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Making passwords shorter",
+                        "B":  "Recovery after loss or damage",
+                        "C":  "Replacing a CPU",
+                        "D":  "Increasing screen size"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  125,
+        "prompt":  "An induced current is produced when there is a change in:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Temperature only",
+                        "B":  "Mass",
+                        "C":  "Resistance only",
+                        "D":  "Magnetic flux linkage"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  126,
+        "prompt":  "A catalyst does not change the yield at equilibrium because it:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Speeds both forward and reverse reactions equally",
+                        "B":  "Changes reactant concentration",
+                        "C":  "Removes product",
+                        "D":  "Adds reactant"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  127,
+        "prompt":  "Which oxide is acidic?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Calcium oxide",
+                        "B":  "Magnesium oxide",
+                        "C":  "Sulfur dioxide",
+                        "D":  "Sodium oxide"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  128,
+        "prompt":  "A double circulatory system means blood passes through the heart:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only when exercising",
+                        "B":  "Only in arteries",
+                        "C":  "Twice in one complete circuit",
+                        "D":  "Once every two days"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  129,
+        "prompt":  "Diffraction is most noticeable when gap width is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Independent of wavelength",
+                        "B":  "Similar to wavelength",
+                        "C":  "Much larger than wavelength",
+                        "D":  "Zero only"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  130,
+        "prompt":  "Graphite conducts electricity because it has:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only single covalent bonds",
+                        "B":  "Ionic bonds only",
+                        "C":  "No valence electrons",
+                        "D":  "Delocalised electrons"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  131,
+        "prompt":  "Distance between (0,0) and (3,4) is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "5",
+                        "B":  "7",
+                        "C":  "12",
+                        "D":  "25"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  132,
+        "prompt":  "A biological control method uses:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only machines",
+                        "B":  "Only herbicides",
+                        "C":  "Only fire",
+                        "D":  "Natural enemies of pests"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  133,
+        "prompt":  "Which storage medium has no moving mechanical parts?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Hard disk drive",
+                        "B":  "Solid-state drive",
+                        "C":  "Magnetic tape",
+                        "D":  "Optical disk"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  134,
+        "prompt":  "Poor drainage can harm crops because roots may lack:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sunlight",
+                        "B":  "Chlorophyll",
+                        "C":  "Oxygen",
+                        "D":  "Seeds"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  135,
+        "prompt":  "A disease that can be transmitted from one person to another is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Genetic disorder only",
+                        "B":  "Communicable disease",
+                        "C":  "Non-infectious disease",
+                        "D":  "Deficiency disease"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  136,
+        "prompt":  "Cracking converts long-chain hydrocarbons into:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only carbon dioxide",
+                        "B":  "Salts",
+                        "C":  "Metals",
+                        "D":  "Shorter hydrocarbons"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  137,
+        "prompt":  "Energy decreases along a food chain mainly because organisms:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Stop respiring",
+                        "B":  "Gain mass only",
+                        "C":  "Create energy from nothing",
+                        "D":  "Lose energy as heat and in waste"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  138,
+        "prompt":  "Using software without a valid licence may violate:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Copyright",
+                        "B":  "Resolution",
+                        "C":  "Voltage",
+                        "D":  "Bandwidth"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  139,
+        "prompt":  "If tan θ = 3/4 in an acute triangle, cos θ is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "5/4",
+                        "B":  "3/5",
+                        "C":  "4/5",
+                        "D":  "4/3"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  140,
+        "prompt":  "External parasites include:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Bacteria",
+                        "B":  "Ticks",
+                        "C":  "Tapeworms",
+                        "D":  "Roundworms"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  141,
+        "prompt":  "A flowchart is a graphical representation of an:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Operating system",
+                        "B":  "Algorithm",
+                        "C":  "Virus",
+                        "D":  "Hard drive"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  142,
+        "prompt":  "The SI base unit of length is the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "centimetre",
+                        "B":  "inch",
+                        "C":  "kilometre",
+                        "D":  "metre"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  143,
+        "prompt":  "Meiosis increases genetic variation through crossing over and:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Independent assortment",
+                        "B":  "Mitosis only",
+                        "C":  "Binary fission only",
+                        "D":  "Cloning"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  144,
+        "prompt":  "The reaction between an alcohol and a carboxylic acid to form an ester is called:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Hydrogenation",
+                        "B":  "Polymerisation",
+                        "C":  "Esterification",
+                        "D":  "Cracking"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  145,
+        "prompt":  "Which particle has a relative charge of +1?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Neutron",
+                        "B":  "Photon",
+                        "C":  "Electron",
+                        "D":  "Proton"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  146,
+        "prompt":  "Solve log₁₀ x = 2.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "x = 10",
+                        "B":  "x = 200",
+                        "C":  "x = 20",
+                        "D":  "x = 100"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  147,
+        "prompt":  "Boyle’s law applies to a fixed mass of gas at constant:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Temperature",
+                        "B":  "Pressure",
+                        "C":  "Mass density",
+                        "D":  "Volume"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  148,
+        "prompt":  "Which prefix represents 10⁻³?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "milli",
+                        "B":  "kilo",
+                        "C":  "nano",
+                        "D":  "mega"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  149,
+        "prompt":  "Two-factor authentication improves security by requiring:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Two monitors",
+                        "B":  "A second verification factor",
+                        "C":  "Two usernames",
+                        "D":  "Two browsers"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  150,
+        "prompt":  "The Biuret test gives a purple colour when protein is present because of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Fat droplets",
+                        "B":  "Reducing sugars",
+                        "C":  "Peptide bonds",
+                        "D":  "Starch grains"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  151,
+        "prompt":  "Rainfall is measured using a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Rain gauge",
+                        "B":  "Hygrometer",
+                        "C":  "Barometer",
+                        "D":  "Anemometer"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  152,
+        "prompt":  "A relationship in which one organism benefits and the other is harmed is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Pollination",
+                        "B":  "Commensalism",
+                        "C":  "Parasitism",
+                        "D":  "Mutualism"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  153,
+        "prompt":  "Roughage is important in ruminant feeding because it:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Replaces water",
+                        "B":  "Produces vaccines",
+                        "C":  "Prevents breathing",
+                        "D":  "Aids rumen function and digestion"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  154,
+        "prompt":  "What is the formula of aluminium sulfate?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "AlSO₄",
+                        "B":  "Al₂(SO₄)₃",
+                        "C":  "Al₃SO₄",
+                        "D":  "Al(SO₄)₂"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  155,
+        "prompt":  "Tissue culture can rapidly produce many plants that are:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Different species",
+                        "B":  "Always diseased",
+                        "C":  "Genetically identical clones",
+                        "D":  "Without cells"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  156,
+        "prompt":  "A wave has wavelength 0.50 m and frequency 20 Hz. Its speed is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "0.025 m/s",
+                        "B":  "20 m/s",
+                        "C":  "40 m/s",
+                        "D":  "10 m/s"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  157,
+        "prompt":  "If n(U)=50, n(A)=28, n(B)=20 and n(A∩B)=8, find n(A′).",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "30",
+                        "B":  "10",
+                        "C":  "22",
+                        "D":  "20"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  158,
+        "prompt":  "Which substance is expected to conduct electricity when molten but not when solid?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Iodine",
+                        "B":  "Sodium chloride",
+                        "C":  "Sugar",
+                        "D":  "Diamond"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  159,
+        "prompt":  "A folder is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Encrypt every file automatically",
+                        "B":  "Increase RAM physically",
+                        "C":  "Organise related files",
+                        "D":  "Measure processor speed"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  160,
+        "prompt":  "Amount on ₦20,000 at 5% compound interest for 2 years is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "₦22,050",
+                        "B":  "₦22,000",
+                        "C":  "₦21,000",
+                        "D":  "₦23,000"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  161,
+        "prompt":  "Osmosis is movement of water molecules through a partially permeable membrane from:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Lower to higher water potential only",
+                        "B":  "Cell wall to nucleus",
+                        "C":  "Higher water potential to lower water potential",
+                        "D":  "High solute to low solute without membrane"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  162,
+        "prompt":  "If a=(2,1) and b=(3,-2), a+b is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "(5,-1)",
+                        "B":  "(6,-2)",
+                        "C":  "(-1,5)",
+                        "D":  "(1,3)"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  163,
+        "prompt":  "A database relationship links:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Related tables",
+                        "B":  "Keyboard and mouse",
+                        "C":  "CPU and monitor",
+                        "D":  "Only rows in one cell"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  164,
+        "prompt":  "Liming an acidic soil mainly raises its:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Water table",
+                        "B":  "pH",
+                        "C":  "Clay content",
+                        "D":  "Organic matter immediately"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  165,
+        "prompt":  "Potential difference is measured using a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Galvanometer only",
+                        "B":  "Ammeter",
+                        "C":  "Hydrometer",
+                        "D":  "Voltmeter"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  166,
+        "prompt":  "A transformer with 200 primary turns and 1000 secondary turns is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "An isolator only",
+                        "B":  "Step-up",
+                        "C":  "A rectifier",
+                        "D":  "Step-down"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  167,
+        "prompt":  "Increase 240 by 25%.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "320",
+                        "B":  "300",
+                        "C":  "280",
+                        "D":  "260"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  168,
+        "prompt":  "Radioactive decay is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Caused by heating only",
+                        "B":  "Random",
+                        "C":  "Always predictable for one atom",
+                        "D":  "A chemical reaction"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  169,
+        "prompt":  "Total internal reflection occurs when light travels from denser to less dense medium and angle exceeds:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Critical angle",
+                        "B":  "Brewster angle",
+                        "C":  "Angle of incidence only",
+                        "D":  "90° always"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  170,
+        "prompt":  "A 2 kW heater runs for 3 hours. Energy consumed is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "0.67 kWh",
+                        "B":  "6000 kWh",
+                        "C":  "6 kWh",
+                        "D":  "5 kWh"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  171,
+        "prompt":  "What is the oxidation number of sulfur in H₂SO₄?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "+2",
+                        "B":  "+6",
+                        "C":  "+4",
+                        "D":  "-2"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  172,
+        "prompt":  "An atom has electron arrangement 2,8,3. In which group is it found?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Group 2",
+                        "B":  "Group 18",
+                        "C":  "Group 3",
+                        "D":  "Group 13"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  173,
+        "prompt":  "Quadrats are most suitable for estimating populations of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Humans in cities",
+                        "B":  "Birds in flight",
+                        "C":  "Plants or immobile organisms",
+                        "D":  "Fish in ocean"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  174,
+        "prompt":  "Which element is a halogen?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Chlorine",
+                        "B":  "Neon",
+                        "C":  "Sodium",
+                        "D":  "Magnesium"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  175,
+        "prompt":  "A cell reference such as B4 identifies:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Four worksheets",
+                        "B":  "A formula only",
+                        "C":  "Column B, row 4",
+                        "D":  "Row B, column 4"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  176,
+        "prompt":  "DNS translates domain names into:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Passwords",
+                        "B":  "Images",
+                        "C":  "IP addresses",
+                        "D":  "Binary files only"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  177,
+        "prompt":  "Broilers are poultry birds raised mainly for:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Milk",
+                        "B":  "Eggs only",
+                        "C":  "Feathers only",
+                        "D":  "Meat"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  178,
+        "prompt":  "Solve 3x + 2 \u003c 14.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "x \u003e 4",
+                        "B":  "x \u003c 4",
+                        "C":  "x \u003c 12",
+                        "D":  "x \u003e 12"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  179,
+        "prompt":  "Movement of particles from high to low concentration is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Diffusion",
+                        "B":  "Active transport",
+                        "C":  "Translocation",
+                        "D":  "Osmosis only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  180,
+        "prompt":  "Which chloride has the greatest ionic character?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sodium chloride",
+                        "B":  "Silicon tetrachloride",
+                        "C":  "Carbon tetrachloride",
+                        "D":  "Phosphorus trichloride"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  181,
+        "prompt":  "Simplify 3² × 3⁵.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "3⁷",
+                        "B":  "3¹⁰",
+                        "C":  "9⁷",
+                        "D":  "3³"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  182,
+        "prompt":  "A device that forwards data between networks is a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Keyboard",
+                        "B":  "Projector",
+                        "C":  "Scanner",
+                        "D":  "Router"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  183,
+        "prompt":  "Translocation of sucrose in phloem requires energy for:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Opening stomata only",
+                        "B":  "Breaking down xylem",
+                        "C":  "Loading sucrose into sieve tubes",
+                        "D":  "Evaporation from leaves"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  184,
+        "prompt":  "Drip irrigation supplies water:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "By flooding whole field",
+                        "B":  "Through animal feeding troughs",
+                        "C":  "Directly near plant roots",
+                        "D":  "Only from clouds"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  185,
+        "prompt":  "Simplify √50.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "25√2",
+                        "B":  "10√5",
+                        "C":  "2√25",
+                        "D":  "5√2"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  186,
+        "prompt":  "The hormone responsible for development of female secondary sexual characteristics is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Testosterone",
+                        "B":  "Oestrogen",
+                        "C":  "Insulin",
+                        "D":  "Adrenaline"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  187,
+        "prompt":  "The nutrient mainly used as an energy source in humans is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Vitamin",
+                        "B":  "Carbohydrate",
+                        "C":  "Water",
+                        "D":  "Mineral salt"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  188,
+        "prompt":  "A conditional statement is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Make decisions based on a condition",
+                        "B":  "Store files permanently",
+                        "C":  "Clean hardware",
+                        "D":  "Connect to Wi-Fi"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  189,
+        "prompt":  "Newton’s first law applies when resultant force is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Zero",
+                        "B":  "Equal to mass",
+                        "C":  "Equal to weight",
+                        "D":  "Maximum"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  190,
+        "prompt":  "The gas mainly responsible for the enhanced greenhouse effect is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Oxygen",
+                        "B":  "Nitrogen",
+                        "C":  "Carbon dioxide",
+                        "D":  "Helium"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  191,
+        "prompt":  "A vernier caliper is most suitable for measuring:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Time interval",
+                        "B":  "Mass of a stone",
+                        "C":  "Temperature",
+                        "D":  "External diameter of a test tube"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  192,
+        "prompt":  "An absolute cell reference in spreadsheet is written as:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "$A$1",
+                        "B":  "A:A",
+                        "C":  "A1$",
+                        "D":  "@A1"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  193,
+        "prompt":  "What volume of 0.50 mol dm⁻³ solution contains 0.10 mol solute?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "0.10 dm³",
+                        "B":  "0.05 dm³",
+                        "C":  "0.50 dm³",
+                        "D":  "0.20 dm³"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  194,
+        "prompt":  "A farm inventory records:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only rainfall",
+                        "B":  "Farm assets and stock",
+                        "C":  "Only pests",
+                        "D":  "Only worker names"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  195,
+        "prompt":  "What mass of magnesium oxide forms when 4.8 g of magnesium burns completely? [Mg=24, O=16]",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "4.8 g",
+                        "B":  "8.0 g",
+                        "C":  "3.2 g",
+                        "D":  "6.4 g"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  196,
+        "prompt":  "A gas at 100 kPa has volume 60 cm³. At 150 kPa and constant temperature, volume is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "100 cm³",
+                        "B":  "30 cm³",
+                        "C":  "40 cm³",
+                        "D":  "90 cm³"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  197,
+        "prompt":  "A gas occupies 200 cm³ at 300 K. At constant pressure, what volume will it occupy at 450 K?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "200 cm³",
+                        "B":  "300 cm³",
+                        "C":  "133 cm³",
+                        "D":  "600 cm³"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  198,
+        "prompt":  "Variation within a species can be caused by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "No reproduction",
+                        "B":  "Identical diets only",
+                        "C":  "Only age",
+                        "D":  "Genetic differences"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  199,
+        "prompt":  "Identical twins result when:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "An egg divides by meiosis",
+                        "B":  "Two eggs are fertilised",
+                        "C":  "Two sperm join one egg",
+                        "D":  "One zygote splits into two embryos"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  200,
+        "prompt":  "A 240 V appliance takes 5 A. Its power is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "48 W",
+                        "B":  "235 W",
+                        "C":  "12000 W",
+                        "D":  "1200 W"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  201,
+        "prompt":  "A receptor detects a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Response",
+                        "B":  "Hormone only",
+                        "C":  "Muscle contraction",
+                        "D":  "Stimulus"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  202,
+        "prompt":  "A runner completes 400 m in 50 s. What is average speed?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "450 m/s",
+                        "B":  "8 m/s",
+                        "C":  "0.125 m/s",
+                        "D":  "20 m/s"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  203,
+        "prompt":  "Selection of plants with desirable traits for reproduction is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Pruning",
+                        "B":  "Irrigation",
+                        "C":  "Selective breeding",
+                        "D":  "Weeding"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  204,
+        "prompt":  "In most languages, a loop is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Repeat instructions",
+                        "B":  "Delete variables",
+                        "C":  "Stop every program",
+                        "D":  "Create a monitor"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  205,
+        "prompt":  "Antibiotic-resistant bacteria become common because antibiotics:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Destroy all bacteria equally",
+                        "B":  "Create all mutations deliberately",
+                        "C":  "Stop reproduction completely",
+                        "D":  "Select resistant bacteria that survive and reproduce"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  206,
+        "prompt":  "What volume of oxygen at r.t.p. is needed to burn 0.50 mol methane completely? [Molar gas volume = 24 dm³]",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "12 dm³",
+                        "B":  "6 dm³",
+                        "C":  "24 dm³",
+                        "D":  "48 dm³"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  207,
+        "prompt":  "Within elastic limit, extension is proportional to force according to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Boyle’s law",
+                        "B":  "Ohm’s law",
+                        "C":  "Charles’s law",
+                        "D":  "Hooke’s law"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  208,
+        "prompt":  "Number of ways to arrange 3 distinct books is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "27",
+                        "B":  "3",
+                        "C":  "6",
+                        "D":  "9"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  209,
+        "prompt":  "∫ 4x³ dx equals:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "4x⁴ + C",
+                        "B":  "x⁴ + C",
+                        "C":  "12x² + C",
+                        "D":  "x³ + C"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  210,
+        "prompt":  "The general formula of alkenes is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "CₙH₂ₙ",
+                        "B":  "CₙHₙ",
+                        "C":  "CₙH₂ₙ₋₂",
+                        "D":  "CₙH₂ₙ₊₂"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  211,
+        "prompt":  "The CPU is often called the computer’s:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Screen",
+                        "B":  "Keyboard",
+                        "C":  "Brain",
+                        "D":  "Printer"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  212,
+        "prompt":  "The area under a force-extension graph represents:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Power",
+                        "B":  "Acceleration",
+                        "C":  "Pressure",
+                        "D":  "Work done"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  213,
+        "prompt":  "An incubator provides controlled conditions for:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Hatching eggs",
+                        "B":  "Composting",
+                        "C":  "Drying grain",
+                        "D":  "Milking cows"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  214,
+        "prompt":  "Humans belong to the kingdom:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Fungi",
+                        "B":  "Animalia",
+                        "C":  "Plantae",
+                        "D":  "Prokaryotae"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  215,
+        "prompt":  "A restriction enzyme is used in genetic engineering to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Digest starch",
+                        "B":  "Cut DNA at specific sequences",
+                        "C":  "Make ATP",
+                        "D":  "Transport oxygen"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  216,
+        "prompt":  "A logic gate with output 1 only when both inputs are 1 is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "NOR gate",
+                        "B":  "OR gate",
+                        "C":  "NOT gate",
+                        "D":  "AND gate"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  217,
+        "prompt":  "Agricultural extension officers mainly:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Transfer improved farming knowledge to farmers",
+                        "B":  "Sell land",
+                        "C":  "Collect only taxes",
+                        "D":  "Operate all tractors"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  218,
+        "prompt":  "The enthalpy change of neutralisation is usually exothermic because:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Salt evaporates",
+                        "B":  "Acids become metals",
+                        "C":  "Water molecules form from H⁺ and OH⁻ ions",
+                        "D":  "Electrons are emitted"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  219,
+        "prompt":  "The positive electrode in electrolysis is the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Anode",
+                        "B":  "Cathode",
+                        "C":  "Salt bridge",
+                        "D":  "Electrolyte"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  220,
+        "prompt":  "Sulfur dioxide contributes to acid rain mainly by forming:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sodium sulfate",
+                        "B":  "Methane",
+                        "C":  "Sulfuric acid in the atmosphere",
+                        "D":  "Ammonia"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  221,
+        "prompt":  "In a reflex arc, the relay neurone is located in the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Spinal cord",
+                        "B":  "Retina",
+                        "C":  "Skin",
+                        "D":  "Biceps"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  222,
+        "prompt":  "Passive immunity is obtained when a person receives:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "A pathogen",
+                        "B":  "Ready-made antibodies",
+                        "C":  "A vaccine only",
+                        "D":  "A mutation"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  223,
+        "prompt":  "Integrated farming improves sustainability by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Avoiding all records",
+                        "B":  "Using one crop forever",
+                        "C":  "Eliminating organic matter",
+                        "D":  "Recycling wastes between crop and livestock enterprises"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  224,
+        "prompt":  "Catalytic converters in vehicles reduce emissions of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Oxygen and nitrogen",
+                        "B":  "Carbon monoxide and nitrogen oxides",
+                        "C":  "Water vapour only",
+                        "D":  "Argon"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  225,
+        "prompt":  "A 0.20 kg ball moving at 10 m/s has momentum:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "2.0 kg m/s",
+                        "B":  "0.02 kg m/s",
+                        "C":  "200 kg m/s",
+                        "D":  "20 kg m/s"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  226,
+        "prompt":  "What is decimal 13 in binary?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "1011",
+                        "B":  "1110",
+                        "C":  "1101",
+                        "D":  "1001"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  227,
+        "prompt":  "Root hairs increase absorption by increasing:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Stem height",
+                        "B":  "Surface area",
+                        "C":  "Flower number",
+                        "D":  "Leaf area"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  228,
+        "prompt":  "In a right triangle, opposite side is 6 and hypotenuse 10. sin θ is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "3/4",
+                        "B":  "5/3",
+                        "C":  "3/5",
+                        "D":  "4/5"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  229,
+        "prompt":  "A disadvantage of wind power is that it is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Always polluting",
+                        "B":  "Non-renewable",
+                        "C":  "Intermittent",
+                        "D":  "Based on nuclear fission"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  230,
+        "prompt":  "Phishing attempts commonly try to steal:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Processor speed",
+                        "B":  "Screen brightness",
+                        "C":  "Passwords or sensitive information",
+                        "D":  "File size only"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  231,
+        "prompt":  "A web browser is used to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Measure voltage",
+                        "B":  "Scan viruses only",
+                        "C":  "Create hardware",
+                        "D":  "Access and view web pages"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  232,
+        "prompt":  "A bearing is measured clockwise from:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "West",
+                        "B":  "North",
+                        "C":  "South",
+                        "D":  "East"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  233,
+        "prompt":  "Gravitational potential energy depends on mass, gravity and:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Colour",
+                        "B":  "Frequency",
+                        "C":  "Volume",
+                        "D":  "Height"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  234,
+        "prompt":  "Active transport requires:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "No proteins",
+                        "B":  "Only sunlight",
+                        "C":  "Energy from respiration",
+                        "D":  "No membrane"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  235,
+        "prompt":  "Boiling temporarily hard water removes hardness by decomposing:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Nitrates",
+                        "B":  "Sulfates",
+                        "C":  "Hydrogencarbonates",
+                        "D":  "Chlorides"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  236,
+        "prompt":  "A 12 V supply drives 3 A through a resistor. Resistance is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "4 Ω",
+                        "B":  "36 Ω",
+                        "C":  "9 Ω",
+                        "D":  "0.25 Ω"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  237,
+        "prompt":  "Which process removes suspended insoluble particles from water?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Filtration",
+                        "B":  "Neutralisation",
+                        "C":  "Polymerisation",
+                        "D":  "Cracking"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  238,
+        "prompt":  "Hybrid vigour refers to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Loss of variation",
+                        "B":  "Improved performance of hybrid offspring",
+                        "C":  "Poor seed germination",
+                        "D":  "Soil erosion"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  239,
+        "prompt":  "Enzymes are biological:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Catalysts",
+                        "B":  "Antibodies",
+                        "C":  "Lipids",
+                        "D":  "Minerals"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  240,
+        "prompt":  "Protective clothing when spraying pesticides reduces:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Rainfall",
+                        "B":  "Seed germination",
+                        "C":  "Soil texture",
+                        "D":  "Chemical exposure"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  241,
+        "prompt":  "Diamond is hard because each carbon atom is bonded to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "A mobile sea of ions",
+                        "B":  "Two sodium ions",
+                        "C":  "One oxygen atom",
+                        "D":  "Four other carbon atoms in a giant covalent structure"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  242,
+        "prompt":  "A herbicide is used to control:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Weeds",
+                        "B":  "Insects",
+                        "C":  "Rodents",
+                        "D":  "Fungi"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  243,
+        "prompt":  "Castration of male farm animals may be done to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Make animals ruminate",
+                        "B":  "Control breeding and improve manageability",
+                        "C":  "Increase egg production",
+                        "D":  "Replace vaccination"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  244,
+        "prompt":  "Which formula calculates average values in A1 to A10?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "=AVERAGE(A1:A10)",
+                        "B":  "=TOTAL(A1:A10)",
+                        "C":  "=MEAN(A1:A10)",
+                        "D":  "=MID(A1:A10)"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  245,
+        "prompt":  "At equilibrium in a closed system:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Products disappear",
+                        "B":  "All reactants are used up",
+                        "C":  "Forward and reverse reaction rates are equal",
+                        "D":  "Reaction stops completely"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  246,
+        "prompt":  "Which product is formed by complete combustion of methane?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Carbon monoxide and hydrogen",
+                        "B":  "Ethanol and water",
+                        "C":  "Carbon and oxygen",
+                        "D":  "Carbon dioxide and water"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  247,
+        "prompt":  "Solve x² - 9 = 0.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "x = 3 only",
+                        "B":  "x = -9",
+                        "C":  "x = ±3",
+                        "D":  "x = 9"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  248,
+        "prompt":  "Land tenure refers to the system of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Weather forecasting",
+                        "B":  "Land ownership and use rights",
+                        "C":  "Plant nutrition",
+                        "D":  "Animal breeding"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  249,
+        "prompt":  "Which equation defines momentum?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "p = mv",
+                        "B":  "p = mv²",
+                        "C":  "p = ma",
+                        "D":  "p = Fd"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  250,
+        "prompt":  "Which is an example of an operating system?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Linux",
+                        "B":  "Excel spreadsheet",
+                        "C":  "Google Chrome",
+                        "D":  "Microsoft Word"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  251,
+        "prompt":  "The reciprocal of period is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Amplitude",
+                        "B":  "Phase",
+                        "C":  "Wavelength",
+                        "D":  "Frequency"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  252,
+        "prompt":  "Gamma radiation is best stopped by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Paper",
+                        "B":  "Thick lead or concrete",
+                        "C":  "A thin sheet of aluminium",
+                        "D":  "Water vapour"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  253,
+        "prompt":  "Spacing crops properly reduces competition for:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Carbon dioxide only",
+                        "B":  "Chlorophyll only",
+                        "C":  "Seeds only",
+                        "D":  "Light, water and nutrients"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  254,
+        "prompt":  "Volume of a cylinder radius 3 cm and height 10 cm is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "90π cm³",
+                        "B":  "180π cm³",
+                        "C":  "30π cm³",
+                        "D":  "60π cm³"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  255,
+        "prompt":  "Tendons connect:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Muscle to bone",
+                        "B":  "Bone to bone",
+                        "C":  "Skin to bone",
+                        "D":  "Nerve to muscle"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  256,
+        "prompt":  "Cancer can result from uncontrolled:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Diffusion",
+                        "B":  "Osmosis",
+                        "C":  "Cell division",
+                        "D":  "Transpiration"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  257,
+        "prompt":  "A vehicle changes velocity from 4 m/s to 16 m/s in 3 s. Its acceleration is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "4 m/s²",
+                        "B":  "5.3 m/s²",
+                        "C":  "12 m/s²",
+                        "D":  "20 m/s²"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  258,
+        "prompt":  "Find the standard deviation conceptually: it measures:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Number of values",
+                        "B":  "Largest value only",
+                        "C":  "Spread of values about the mean",
+                        "D":  "Most frequent value"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  259,
+        "prompt":  "Velocity ratio is distance moved by effort divided by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Time",
+                        "B":  "Distance moved by load",
+                        "C":  "Load force",
+                        "D":  "Effort force"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  260,
+        "prompt":  "The male gamete in flowering plants is contained in:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Ovary wall",
+                        "B":  "Pollen grain",
+                        "C":  "Sepal",
+                        "D":  "Ovule"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  261,
+        "prompt":  "A good algorithm should be finite, unambiguous and:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Expensive",
+                        "B":  "Effective",
+                        "C":  "Encrypted",
+                        "D":  "Colourful"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  262,
+        "prompt":  "Electrical energy used is given by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "E = IR",
+                        "B":  "E = V/I",
+                        "C":  "E = Pt",
+                        "D":  "E = Fd"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  263,
+        "prompt":  "For a body in equilibrium, clockwise moments equal:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Weight only",
+                        "B":  "Mass times acceleration",
+                        "C":  "Pressure times area",
+                        "D":  "Anticlockwise moments"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  264,
+        "prompt":  "A car moving at 20 m/s stops in 5 s. Its acceleration is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "-0.25 m/s²",
+                        "B":  "-4 m/s²",
+                        "C":  "-100 m/s²",
+                        "D":  "4 m/s²"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  265,
+        "prompt":  "A population’s habitat includes the place where it:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Reproduces only",
+                        "B":  "Lives",
+                        "C":  "Mutates only",
+                        "D":  "Competes only"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  266,
+        "prompt":  "25.0 cm³ of 0.10 mol dm⁻³ HCl neutralises how many moles of NaOH?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "0.100 mol",
+                        "B":  "0.010 mol",
+                        "C":  "0.0025 mol",
+                        "D":  "0.025 mol"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  267,
+        "prompt":  "Paper chromatography can separate components because they have different:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Electrical charges only",
+                        "B":  "Boiling points only",
+                        "C":  "Attractions to stationary and mobile phases",
+                        "D":  "Mass numbers"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  268,
+        "prompt":  "An IP address identifies a device on a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Keyboard layout",
+                        "B":  "Spreadsheet",
+                        "C":  "Printer cartridge",
+                        "D":  "Network"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  269,
+        "prompt":  "A red blood cell placed in pure water may burst because water enters by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Active transport",
+                        "B":  "Diffusion of haemoglobin",
+                        "C":  "Transpiration",
+                        "D":  "Osmosis"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  270,
+        "prompt":  "Adding dilute acid to a carbonate produces carbon dioxide because carbonate ions react with:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sodium ions",
+                        "B":  "Hydroxide ions",
+                        "C":  "Hydrogen ions",
+                        "D":  "Electrons"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  271,
+        "prompt":  "If y varies inversely as x and y=6 when x=4, find y when x=8.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "3",
+                        "B":  "12",
+                        "C":  "1.5",
+                        "D":  "4"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  272,
+        "prompt":  "The soil component formed from decayed plants and animals is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sand",
+                        "B":  "Humus",
+                        "C":  "Silt",
+                        "D":  "Clay"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  273,
+        "prompt":  "Depreciation is the reduction in value of a farm asset due to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Increase in sales",
+                        "B":  "Wear, age or use",
+                        "C":  "New workers",
+                        "D":  "Rainfall"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  274,
+        "prompt":  "What is the percentage by mass of oxygen in water, H₂O?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "11.1%",
+                        "B":  "50.0%",
+                        "C":  "88.9%",
+                        "D":  "94.1%"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  275,
+        "prompt":  "The part of the brain responsible for balance is the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Medulla",
+                        "B":  "Cerebrum",
+                        "C":  "Spinal nerve",
+                        "D":  "Cerebellum"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  276,
+        "prompt":  "The earth wire in a metal-cased appliance is for:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Making appliance faster",
+                        "B":  "Reducing current to zero",
+                        "C":  "Preventing electric shock",
+                        "D":  "Increasing voltage"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  277,
+        "prompt":  "Thyroxine is produced by the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Pituitary gland",
+                        "B":  "Adrenal gland",
+                        "C":  "Thyroid gland",
+                        "D":  "Pancreas"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  278,
+        "prompt":  "Evaluate 16^(1/2).",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "16",
+                        "B":  "4",
+                        "C":  "2",
+                        "D":  "8"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  279,
+        "prompt":  "Guard cells become turgid when they take up water, causing stomata to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Stop gas exchange permanently",
+                        "B":  "Close",
+                        "C":  "Open",
+                        "D":  "Turn into roots"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  280,
+        "prompt":  "Reduction is best defined as:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Gain of electrons",
+                        "B":  "Loss of electrons",
+                        "C":  "Increase in oxidation number",
+                        "D":  "Gain of oxygen only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  281,
+        "prompt":  "The enzyme pepsin works mainly in the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Mouth",
+                        "B":  "Stomach",
+                        "C":  "Large intestine",
+                        "D":  "Ileum"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  282,
+        "prompt":  "Simple interest on ₦5,000 at 8% yearly for 3 years is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "₦800",
+                        "B":  "₦400",
+                        "C":  "₦1,200",
+                        "D":  "₦6,200"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  283,
+        "prompt":  "A current of 2 A flows for 30 s. Charge transferred is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "15 C",
+                        "B":  "60 C",
+                        "C":  "32 C",
+                        "D":  "90 C"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  284,
+        "prompt":  "HIV attacks cells of the immune system, especially:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Red blood cells",
+                        "B":  "Helper T cells",
+                        "C":  "Bone cells",
+                        "D":  "Platelets"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  285,
+        "prompt":  "A cone and cylinder have same base and height. Cone volume is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Same as cylinder",
+                        "B":  "Twice cylinder volume",
+                        "C":  "Half cylinder volume",
+                        "D":  "One-third cylinder volume"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  286,
+        "prompt":  "A homozygous individual has:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Only one allele",
+                        "B":  "No chromosomes",
+                        "C":  "Two different alleles",
+                        "D":  "Two identical alleles"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  287,
+        "prompt":  "The unit of power of a lens is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "metre",
+                        "B":  "dioptre",
+                        "C":  "newton",
+                        "D":  "candela"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  288,
+        "prompt":  "Antibodies are proteins that bind to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Oxygen only",
+                        "B":  "Glucose only",
+                        "C":  "Specific antigens",
+                        "D":  "All body cells equally"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  289,
+        "prompt":  "An atom has mass number 35 and 18 neutrons. Its electron arrangement when neutral is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "2,8,8",
+                        "B":  "2,8,7",
+                        "C":  "2,7,8",
+                        "D":  "2,8,5"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  290,
+        "prompt":  "A joint that allows movement in many directions is the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Pivot only",
+                        "B":  "Ball and socket joint",
+                        "C":  "Hinge joint",
+                        "D":  "Fixed joint"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  291,
+        "prompt":  "In Fe + CuSO₄ → FeSO₄ + Cu, iron is more reactive than:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Oxygen",
+                        "B":  "Sulfur",
+                        "C":  "Copper",
+                        "D":  "Sulfate"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  292,
+        "prompt":  "A catalyst increases reaction rate by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Lowering activation energy",
+                        "B":  "Being used up",
+                        "C":  "Changing the equilibrium constant",
+                        "D":  "Increasing product mass"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  293,
+        "prompt":  "Modulation is used in radio communication mainly to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Eliminate all waves",
+                        "B":  "Reduce light speed",
+                        "C":  "Carry information on a high-frequency carrier",
+                        "D":  "Create direct current"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  294,
+        "prompt":  "Nuclear fission involves:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Burning a fuel",
+                        "B":  "Joining light nuclei",
+                        "C":  "Splitting a heavy nucleus",
+                        "D":  "Ionising gas only"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  295,
+        "prompt":  "A competitive inhibitor reduces enzyme activity by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Adding more enzyme permanently",
+                        "B":  "Destroying all products",
+                        "C":  "Competing with substrate for the active site",
+                        "D":  "Increasing temperature only"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  296,
+        "prompt":  "Which property makes copper useful for electrical wiring?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Transparency",
+                        "B":  "Brittleness",
+                        "C":  "High electrical conductivity",
+                        "D":  "Low melting point"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  297,
+        "prompt":  "The mean of five numbers is 12. Their total is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "24",
+                        "B":  "72",
+                        "C":  "60",
+                        "D":  "17"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  298,
+        "prompt":  "A 1200 W kettle operates for 30 s. Energy used is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "1200 J",
+                        "B":  "40 J",
+                        "C":  "40000 J",
+                        "D":  "36000 J"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  299,
+        "prompt":  "Which fraction from crude oil has the lowest boiling range?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Lubricating oil",
+                        "B":  "Bitumen",
+                        "C":  "Fuel oil",
+                        "D":  "Refinery gases"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  300,
+        "prompt":  "Breaking chemical bonds requires energy because it is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Endothermic",
+                        "B":  "Exothermic",
+                        "C":  "A precipitation",
+                        "D":  "A neutralisation"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  301,
+        "prompt":  "Primary succession begins on:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Abandoned farmland with soil",
+                        "B":  "A mature forest only",
+                        "C":  "A river only",
+                        "D":  "A surface with no soil, such as bare rock"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  302,
+        "prompt":  "A synapse is a junction between:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Two red cells",
+                        "B":  "A gland and blood",
+                        "C":  "Two neurones",
+                        "D":  "Two bones"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  303,
+        "prompt":  "Hydraulic brakes work mainly by transmission of pressure through:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "A magnet",
+                        "B":  "A confined liquid",
+                        "C":  "A vacuum",
+                        "D":  "A spring only"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  304,
+        "prompt":  "Two fair coins are tossed. Probability of exactly one head is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "1/2",
+                        "B":  "1",
+                        "C":  "1/4",
+                        "D":  "3/4"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  305,
+        "prompt":  "Platelets are important in:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Oxygen transport",
+                        "B":  "Blood clotting",
+                        "C":  "Hormone production",
+                        "D":  "Digestion"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  306,
+        "prompt":  "Oxygen debt after exercise is repaid mainly by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Producing more starch",
+                        "B":  "Extra oxygen intake to remove lactic acid effects",
+                        "C":  "Closing alveoli",
+                        "D":  "Stopping circulation"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  307,
+        "prompt":  "If A=[[2,1],[0,3]], trace of A is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "2",
+                        "B":  "3",
+                        "C":  "6",
+                        "D":  "5"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  308,
+        "prompt":  "Electrons occupy regions around the nucleus called:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Isotopes",
+                        "B":  "Shells",
+                        "C":  "Nucleons",
+                        "D":  "Alloys"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  309,
+        "prompt":  "Which apparatus is most accurate for delivering a fixed volume of solution in titration?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Pipette",
+                        "B":  "Test tube",
+                        "C":  "Beaker",
+                        "D":  "Evaporating dish"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  310,
+        "prompt":  "Work is done when a force causes:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "A change in colour",
+                        "B":  "Displacement in its direction",
+                        "C":  "A decrease in mass",
+                        "D":  "A rise in temperature only"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  311,
+        "prompt":  "What is the molar mass of calcium carbonate, CaCO₃? [Ca=40, C=12, O=16]",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "116 g mol⁻¹",
+                        "B":  "56 g mol⁻¹",
+                        "C":  "84 g mol⁻¹",
+                        "D":  "100 g mol⁻¹"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  312,
+        "prompt":  "A transistor can be used as an electronic:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Switch",
+                        "B":  "Thermometer",
+                        "C":  "Transformer",
+                        "D":  "Fuse wire"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  313,
+        "prompt":  "Photosynthesis occurs mainly in:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Vacuoles",
+                        "B":  "Mitochondria",
+                        "C":  "Chloroplasts",
+                        "D":  "Ribosomes"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  314,
+        "prompt":  "A limiting factor that depends on population density is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Earthquake",
+                        "B":  "Drought",
+                        "C":  "Competition for food",
+                        "D":  "Flood"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  315,
+        "prompt":  "Gross margin is calculated as total revenue minus:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Tax only",
+                        "B":  "Total variable cost",
+                        "C":  "Depreciation only",
+                        "D":  "Fixed cost only"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  316,
+        "prompt":  "A motor receives 800 J and gives 560 J useful output. Efficiency is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "143%",
+                        "B":  "56%",
+                        "C":  "30%",
+                        "D":  "70%"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  317,
+        "prompt":  "The gradient of y=3x-2 is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "3",
+                        "B":  "2",
+                        "C":  "-2",
+                        "D":  "-3"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  318,
+        "prompt":  "A sample has half-life 6 h. Fraction remaining after 18 h is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "1/8",
+                        "B":  "1/6",
+                        "C":  "1/2",
+                        "D":  "1/4"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  319,
+        "prompt":  "What is the formula of ammonium sulfate?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "(NH₄)₂SO₄",
+                        "B":  "NH₄(SO₄)₂",
+                        "C":  "(NH₄)SO₄",
+                        "D":  "NH₄SO₄"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  320,
+        "prompt":  "Why is a burette rinsed with the solution it will contain?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "To avoid dilution by water left inside",
+                        "B":  "To cool the solution",
+                        "C":  "To increase its volume",
+                        "D":  "To sterilise the solution"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  321,
+        "prompt":  "Anaerobic respiration in yeast produces ethanol and:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Oxygen",
+                        "B":  "Carbon dioxide",
+                        "C":  "Glucose",
+                        "D":  "Lactic acid"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  322,
+        "prompt":  "Soap is less effective in hard water because it forms:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Hydrogen gas",
+                        "B":  "More lather",
+                        "C":  "Scum with calcium or magnesium ions",
+                        "D":  "Pure water"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  323,
+        "prompt":  "Which product is formed when ethene reacts with steam under suitable conditions?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Polyethene",
+                        "B":  "Ethanoic acid",
+                        "C":  "Ethanol",
+                        "D":  "Ethane"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  324,
+        "prompt":  "Organisms of different species living together form a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Community",
+                        "B":  "Population",
+                        "C":  "Organ",
+                        "D":  "Tissue"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  325,
+        "prompt":  "A blue precipitate with aqueous sodium hydroxide suggests the presence of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Copper(II) ions",
+                        "B":  "Iron(II) ions",
+                        "C":  "Ammonium ions",
+                        "D":  "Calcium ions"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  326,
+        "prompt":  "Which reagent can be used to prepare an insoluble salt?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Fractional distillation",
+                        "B":  "Precipitation reaction",
+                        "C":  "Titration only",
+                        "D":  "Sublimation"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  327,
+        "prompt":  "The direction of force on a current-carrying conductor in magnetic field is predicted by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Right-hand grip rule only",
+                        "B":  "Fleming’s left-hand rule",
+                        "C":  "Newton’s third law",
+                        "D":  "Ohm’s law"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  328,
+        "prompt":  "Which pseudocode condition checks whether x is between 1 and 10 inclusive?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "x \u003e= 1 AND x \u003c= 10",
+                        "B":  "x \u003c 1",
+                        "C":  "x = 1 OR 10",
+                        "D":  "x \u003e 10"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  329,
+        "prompt":  "A compass needle aligns itself with:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Earth’s magnetic field",
+                        "B":  "Sound waves",
+                        "C":  "Gravitational field",
+                        "D":  "Electric field only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  330,
+        "prompt":  "Optical fibres transmit information using:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Heat conduction",
+                        "B":  "Magnetic rocks",
+                        "C":  "Light signals",
+                        "D":  "Sound only"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  331,
+        "prompt":  "Very high temperature can stop enzyme activity by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Changing DNA sequence",
+                        "B":  "Creating more substrate",
+                        "C":  "Denaturing the active site",
+                        "D":  "Increasing molecular mass"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  332,
+        "prompt":  "An alpha particle is equivalent to a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Proton",
+                        "B":  "Electron",
+                        "C":  "Helium nucleus",
+                        "D":  "Gamma ray"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  333,
+        "prompt":  "Stomata open and close due to changes in:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Xylem vessels",
+                        "B":  "Petals",
+                        "C":  "Guard cells",
+                        "D":  "Root hairs"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  334,
+        "prompt":  "If f(x)=x²-1, solve f(x)=8.",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "x = ±3",
+                        "B":  "x = 3 only",
+                        "C":  "x = ±4",
+                        "D":  "x = 8"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  335,
+        "prompt":  "In the Haber process, a compromise temperature is used because high temperature:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Stops the reaction",
+                        "B":  "Makes nitrogen solid",
+                        "C":  "Eliminates need for catalyst",
+                        "D":  "Increases rate but lowers ammonia equilibrium yield"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  336,
+        "prompt":  "What is the pH of a neutral solution at 25°C?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "14",
+                        "B":  "0",
+                        "C":  "1",
+                        "D":  "7"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  337,
+        "prompt":  "The placenta allows exchange of materials between:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Mother and fetus",
+                        "B":  "Heart and lungs",
+                        "C":  "Ovary and uterus",
+                        "D":  "Testes and penis"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  338,
+        "prompt":  "Ribosomes are the site of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Cell division only",
+                        "B":  "Aerobic respiration",
+                        "C":  "Protein synthesis",
+                        "D":  "Photosynthesis"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  339,
+        "prompt":  "A lens has focal length 0.50 m. Its power is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "5 D",
+                        "B":  "20 D",
+                        "C":  "2 D",
+                        "D":  "0.5 D"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  340,
+        "prompt":  "Electric current is the rate of flow of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Charge",
+                        "B":  "Voltage",
+                        "C":  "Power",
+                        "D":  "Resistance"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  341,
+        "prompt":  "Midpoint of (2,5) and (8,11) is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "(3,3)",
+                        "B":  "(5,8)",
+                        "C":  "(10,16)",
+                        "D":  "(6,6)"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  342,
+        "prompt":  "The SI unit of temperature is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "kelvin",
+                        "B":  "watt",
+                        "C":  "joule",
+                        "D":  "degree Celsius"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  343,
+        "prompt":  "Addition polymerisation of propene produces a polymer with repeating units containing:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Three carbon atoms",
+                        "B":  "A benzene ring",
+                        "C":  "One carbon atom",
+                        "D":  "Two oxygen atoms"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  344,
+        "prompt":  "Resistance is measured in:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "ohms",
+                        "B":  "watts",
+                        "C":  "volts",
+                        "D":  "amperes"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  345,
+        "prompt":  "Adrenaline prepares the body for emergency by increasing:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Digestive activity",
+                        "B":  "Urine production only",
+                        "C":  "Insulin storage only",
+                        "D":  "Heart rate"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  346,
+        "prompt":  "The female reproductive structure of a flower is the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Anther",
+                        "B":  "Carpel",
+                        "C":  "Stamen",
+                        "D":  "Filament"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  347,
+        "prompt":  "A lift of mass 500 kg accelerates upward at 2 m/s². Take g=10 N/kg. Tension is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "4000 N",
+                        "B":  "5000 N",
+                        "C":  "10000 N",
+                        "D":  "6000 N"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  348,
+        "prompt":  "A machine with mechanical advantage 4 and velocity ratio 5 has efficiency:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "20%",
+                        "B":  "80%",
+                        "C":  "125%",
+                        "D":  "9%"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  349,
+        "prompt":  "A plant wilts when cells lose water and become:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Dividing rapidly",
+                        "B":  "Plasmolysed only in all cases",
+                        "C":  "Turgid",
+                        "D":  "Flaccid"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  350,
+        "prompt":  "Which metal reacts most vigorously with cold water?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Iron",
+                        "B":  "Potassium",
+                        "C":  "Copper",
+                        "D":  "Silver"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  351,
+        "prompt":  "The mass of an object is constant but its weight changes with:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Gravitational field strength",
+                        "B":  "Colour",
+                        "C":  "Volume only",
+                        "D":  "Temperature only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  352,
+        "prompt":  "Increasing concentration increases reaction rate because there are:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Less kinetic energy",
+                        "B":  "No activation energy",
+                        "C":  "Fewer particles",
+                        "D":  "More frequent successful collisions"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  353,
+        "prompt":  "A polymer formed from two different monomers is a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Copolymer",
+                        "B":  "Electrolyte",
+                        "C":  "Isotope",
+                        "D":  "Allotrope"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  354,
+        "prompt":  "Cholera is commonly spread through:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sunlight",
+                        "B":  "Inherited alleles",
+                        "C":  "Mosquito bite",
+                        "D":  "Contaminated water or food"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  355,
+        "prompt":  "A force of 200 N acts over 0.50 m². Pressure is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "400 Pa",
+                        "B":  "1000 Pa",
+                        "C":  "200 Pa",
+                        "D":  "100 Pa"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  356,
+        "prompt":  "The ureter carries urine from:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Bladder to outside",
+                        "B":  "Kidney to bladder",
+                        "C":  "Liver to kidney",
+                        "D":  "Heart to kidney"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  357,
+        "prompt":  "Tuberculosis is caused by a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Protoctist",
+                        "B":  "Virus",
+                        "C":  "Bacterium",
+                        "D":  "Fungus"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  358,
+        "prompt":  "Which ion is responsible for acidity in aqueous solution?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "H⁺",
+                        "B":  "OH⁻",
+                        "C":  "Na⁺",
+                        "D":  "Cl⁻"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  359,
+        "prompt":  "The Contact process is used to manufacture:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Ethanol",
+                        "B":  "Sodium hydroxide",
+                        "C":  "Sulfuric acid",
+                        "D":  "Ammonia"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  360,
+        "prompt":  "A white crystalline solid is dried after filtration by placing it between:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Copper plates",
+                        "B":  "Two beakers",
+                        "C":  "Filter papers",
+                        "D":  "Rubber stoppers"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  361,
+        "prompt":  "A higher-pitched sound has greater:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Amplitude",
+                        "B":  "Frequency",
+                        "C":  "Speed in air",
+                        "D":  "Wavelength always"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  362,
+        "prompt":  "A reaction in which one element replaces another in a compound is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Polymerisation",
+                        "B":  "Displacement reaction",
+                        "C":  "Combination reaction",
+                        "D":  "Neutralisation"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  363,
+        "prompt":  "A ray passes from air into glass. It bends towards the normal because its speed:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Does not change",
+                        "B":  "Becomes zero",
+                        "C":  "Decreases",
+                        "D":  "Increases"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  364,
+        "prompt":  "Gas exchange in human lungs occurs in the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Trachea",
+                        "B":  "Bronchi",
+                        "C":  "Alveoli",
+                        "D":  "Diaphragm"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  365,
+        "prompt":  "The roots of x² + x - 12 = 0 are:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "4 and -3",
+                        "B":  "-3 and -4",
+                        "C":  "12 and 1",
+                        "D":  "3 and -4"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  366,
+        "prompt":  "The pressure exerted by a gas is caused by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Attraction between gas particles only",
+                        "B":  "The colour of the gas",
+                        "C":  "The mass of the container",
+                        "D":  "Collisions of gas particles with container walls"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  367,
+        "prompt":  "Beta radiation is a stream of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Photons",
+                        "B":  "Fast electrons",
+                        "C":  "Helium nuclei",
+                        "D":  "Neutrons"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  368,
+        "prompt":  "A concave mirror can form a real image when object is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Between mirror and focal point only",
+                        "B":  "Beyond the focal point",
+                        "C":  "At the pole only",
+                        "D":  "Behind the mirror"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  369,
+        "prompt":  "After fertilisation in humans, the zygote divides repeatedly by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Fertilisation",
+                        "B":  "Meiosis",
+                        "C":  "Pollination",
+                        "D":  "Mitosis"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  370,
+        "prompt":  "Which element is most likely to form a 2+ ion?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Argon",
+                        "B":  "Chlorine",
+                        "C":  "Sodium",
+                        "D":  "Magnesium"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  371,
+        "prompt":  "A national park protects organisms by conserving their:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Atomic number",
+                        "B":  "Blood group",
+                        "C":  "Habitat",
+                        "D":  "Cell membrane"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  372,
+        "prompt":  "An object floats when its weight is equal to the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Upthrust",
+                        "B":  "Density",
+                        "C":  "Volume",
+                        "D":  "Mass of object"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  373,
+        "prompt":  "The SI unit of pressure is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "newton",
+                        "B":  "joule",
+                        "C":  "watt",
+                        "D":  "pascal"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  374,
+        "prompt":  "In electrolysis, oxidation occurs at the:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Power supply",
+                        "B":  "Electrolyte",
+                        "C":  "Anode",
+                        "D":  "Cathode"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  375,
+        "prompt":  "During vigorous exercise, breathing rate rises mainly to supply more:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Bile",
+                        "B":  "Urea",
+                        "C":  "Oxygen and remove more carbon dioxide",
+                        "D":  "Nitrogen"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  376,
+        "prompt":  "Phloem transports:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sucrose and amino acids",
+                        "B":  "Oxygen only",
+                        "C":  "Water only",
+                        "D":  "Mineral ions only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  377,
+        "prompt":  "Nitrogen-fixing bacteria convert atmospheric nitrogen into:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Glucose",
+                        "B":  "Oxygen",
+                        "C":  "Nitrogen compounds usable by plants",
+                        "D":  "Carbon dioxide"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  378,
+        "prompt":  "Capillaries are efficient exchange surfaces because they have:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "No blood flow",
+                        "B":  "Thin walls and large total surface area",
+                        "C":  "Valves only",
+                        "D":  "Thick muscular walls"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  379,
+        "prompt":  "Thermal radiation can travel through:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "A vacuum",
+                        "B":  "Only solids",
+                        "C":  "Only liquids",
+                        "D":  "Only gases"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  380,
+        "prompt":  "An ion X²⁺ has 10 electrons. What is the proton number of X?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "10",
+                        "B":  "12",
+                        "C":  "8",
+                        "D":  "20"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  381,
+        "prompt":  "A liquid has density 800 kg/m³. What mass occupies 0.50 m³?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "160 kg",
+                        "B":  "400 kg",
+                        "C":  "1600 kg",
+                        "D":  "800 kg"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  382,
+        "prompt":  "The raw materials for manufacture of glass include silica and:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Sodium carbonate",
+                        "B":  "Ammonia",
+                        "C":  "Chlorine",
+                        "D":  "Copper"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  383,
+        "prompt":  "The SI unit of moment is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "joule per second",
+                        "B":  "newton per metre",
+                        "C":  "newton metre",
+                        "D":  "pascal"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  384,
+        "prompt":  "Biomagnification causes concentrations of persistent toxins to be greatest in:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Producers",
+                        "B":  "Decomposers",
+                        "C":  "Top consumers",
+                        "D":  "Primary consumers only"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  385,
+        "prompt":  "Self-pollination occurs when pollen reaches a stigma of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "A root hair",
+                        "B":  "The same flower or same plant",
+                        "C":  "An insect only",
+                        "D":  "A different species only"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  386,
+        "prompt":  "Specific heat capacity is energy needed to raise temperature of 1 kg by:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "1 Pa",
+                        "B":  "1 K",
+                        "C":  "1 s",
+                        "D":  "1 m"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  387,
+        "prompt":  "Birth rate minus death rate contributes to:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Population change",
+                        "B":  "Mutation only",
+                        "C":  "Photosynthesis",
+                        "D":  "Food-web length"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  388,
+        "prompt":  "Deforestation can increase flooding because it reduces:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "River volume",
+                        "B":  "Cloud formation only",
+                        "C":  "Interception and water uptake by vegetation",
+                        "D":  "Solar radiation"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  389,
+        "prompt":  "For A=[[1,2],[3,4]], determinant is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "2",
+                        "B":  "-2",
+                        "C":  "10",
+                        "D":  "-10"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  390,
+        "prompt":  "Ozone in the stratosphere is important because it absorbs much of the Sun’s:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Ultraviolet radiation",
+                        "B":  "Visible green light",
+                        "C":  "Sound energy",
+                        "D":  "Radio waves only"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  391,
+        "prompt":  "Viruses are not placed in the five kingdoms because they:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Are always beneficial",
+                        "B":  "Can make food",
+                        "C":  "Have no DNA",
+                        "D":  "Are not made of cells and reproduce only in host cells"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  392,
+        "prompt":  "A charge of 24 C passes in 8 s. The current is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "192 A",
+                        "B":  "0.33 A",
+                        "C":  "16 A",
+                        "D":  "3 A"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  393,
+        "prompt":  "Antibiotics do not cure influenza because influenza is caused by a:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Bacterium",
+                        "B":  "Worm",
+                        "C":  "Virus",
+                        "D":  "Fungus"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  394,
+        "prompt":  "Polyethene is made from monomers of:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Methane",
+                        "B":  "Ethanoic acid",
+                        "C":  "Ethene",
+                        "D":  "Ethanol"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  395,
+        "prompt":  "Convection occurs in fluids because warmer fluid is generally:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Heavier per unit volume",
+                        "B":  "Solid",
+                        "C":  "More dense",
+                        "D":  "Less dense"
+                    },
+        "correctOption":  "D"
+    },
+    {
+        "sourceNumber":  396,
+        "prompt":  "Which reagent decolourises bromine water?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Ethene",
+                        "B":  "Ethane",
+                        "C":  "Methane",
+                        "D":  "Propane"
+                    },
+        "correctOption":  "A"
+    },
+    {
+        "sourceNumber":  397,
+        "prompt":  "Across a period from left to right, atomic radius generally:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Increases",
+                        "B":  "Decreases",
+                        "C":  "Doubles",
+                        "D":  "Remains exactly constant"
+                    },
+        "correctOption":  "B"
+    },
+    {
+        "sourceNumber":  398,
+        "prompt":  "If P varies as r² and P=36 when r=3, P when r=5 is:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "180",
+                        "B":  "60",
+                        "C":  "100",
+                        "D":  "72"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  399,
+        "prompt":  "Which gas gives a squeaky pop with a lighted splint?",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Chlorine",
+                        "B":  "Oxygen",
+                        "C":  "Hydrogen",
+                        "D":  "Carbon dioxide"
+                    },
+        "correctOption":  "C"
+    },
+    {
+        "sourceNumber":  400,
+        "prompt":  "A step-up transformer increases:",
+        "subject":  "General STEM",
+        "points":  1,
+        "options":  {
+                        "A":  "Frequency",
+                        "B":  "Current and voltage both always",
+                        "C":  "Voltage",
+                        "D":  "Electrical charge"
+                    },
+        "correctOption":  "C"
+    }
+]

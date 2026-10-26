@@ -1,0 +1,2 @@
+ALTER TABLE exams
+    ADD COLUMN IF NOT EXISTS marks_per_correct_answer NUMERIC(8, 2) NOT NULL DEFAULT 2.50;
