@@ -13,40 +13,144 @@ const subjects = [
 type Sponsor = { id: string; name: string; organization?: string; description?: string; websiteUrl?: string; logoUrl?: string }
 type PolicySection = { id: number; section: string; title: string; content: string }
 
+const featuredSponsors: Sponsor[] = [
+  {
+    id: 'monica',
+    name: 'Monica',
+    description: 'Explore Monica’s official website.',
+    logoUrl: '/images/sponsors/monica-wordmark-dark.png',
+    websiteUrl: 'https://monica.cash',
+  },
+  {
+    id: 'indomie',
+    name: 'Indomie Ghana',
+    description: 'Campaign videos shared with the HSSC community.',
+    logoUrl: '/images/sponsors/indomie-logo.png',
+  },
+  {
+    id: 'sosa',
+    name: 'Sosa',
+    description: 'Video advertisement shared with HSSC.',
+    logoUrl: '/images/sponsors/sosa-fruit-drink.png',
+  },
+]
+
+type SponsorBrand = 'monica' | 'indomie' | 'sosa' | 'other'
 type PartnerAd = {
-  brand: string
-  mark: string
+  brand: SponsorBrand
+  name: string
   headline: string
   description: string
-  accent: string
-  logoSrc?: string
-  videoSrc?: string
-  posterSrc?: string
+  logoSrc: string
+  posterSrc: string
+  websiteUrl?: string
 }
 
 const partnerAds: PartnerAd[] = [
   {
-    brand: 'SAMPLE BRAND 01',
-    mark: 'ST',
-    headline: 'Ideas grow with opportunity.',
-    description: 'A sample message showing where a future education partner can share its work.',
-    accent: '#28564a',
+    brand: 'monica',
+    name: 'MONICA · HSSC SPONSOR',
+    headline: 'Backing bright ideas.',
+    description: 'Discover Monica.',
+    logoSrc: '/images/sponsors/monica-wordmark-white.png',
+    posterSrc: '/images/sponsors/monica-wordmark-white.png',
+    websiteUrl: 'https://monica.cash',
   },
   {
-    brand: 'SAMPLE BRAND 02',
-    mark: 'SF',
-    headline: 'Make room for discovery.',
-    description: 'Partner with young people exploring science, technology and new possibilities.',
-    accent: '#315877',
+    brand: 'indomie',
+    name: 'INDOMIE GHANA · HSSC SPONSOR',
+    headline: 'A little flavour for every day.',
+    description: 'Campaign videos shared with the HSSC community.',
+    logoSrc: '/images/sponsors/indomie-logo.png',
+    posterSrc: '/images/sponsors/indomie-flavour-everyday.jpg',
   },
   {
-    brand: 'SAMPLE BRAND 03',
-    mark: 'IF',
-    headline: 'Curiosity builds tomorrow.',
-    description: 'This space is ready for a confirmed partner logo, video or short promotion.',
-    accent: '#70523d',
+    brand: 'sosa',
+    name: 'SOSA · HSSC SPONSOR',
+    headline: 'Sosa Fruit Drink.',
+    description: 'Video advertisement shared with HSSC.',
+    logoSrc: '/images/sponsors/sosa-fruit-drink.png',
+    posterSrc: '/images/sponsors/sosa-fruit-drink.png',
   },
 ]
+
+type SponsorVideoAd = {
+  brand: Exclude<SponsorBrand, 'other'>
+  name: string
+  description: string
+  logoSrc: string
+  posterSrc: string
+  videoSrc?: string
+  websiteUrl?: string
+}
+
+const sponsorVideoAds: SponsorVideoAd[] = [
+  {
+    brand: 'monica',
+    name: 'Monica',
+    description: 'Explore Monica’s official website.',
+    logoSrc: '/images/sponsors/monica-wordmark-dark.png',
+    posterSrc: '/images/sponsors/monica-wordmark-dark.png',
+    websiteUrl: 'https://monica.cash',
+  },
+  {
+    brand: 'indomie',
+    name: 'Indomie Ghana',
+    description: 'Life tastes better with a little more fruitiness.',
+    logoSrc: '/images/sponsors/indomie-logo.png',
+    videoSrc: '/assets/sponsors/indomie-fruitfulness.mp4',
+    posterSrc: '/images/sponsors/indomie-flavour-everyday.jpg',
+  },
+  {
+    brand: 'indomie',
+    name: 'Indomie Ghana',
+    description: 'Celebrating the freedom, flavour and vibrant spirit that make us who we are.',
+    logoSrc: '/images/sponsors/indomie-logo.png',
+    videoSrc: '/assets/sponsors/indomie-independence.mp4',
+    posterSrc: '/images/sponsors/indomie-monday.jpg',
+  },
+  {
+    brand: 'indomie',
+    name: 'Indomie Ghana',
+    description: 'Did you know that your favourite bowl of Indomie is not only delicious but also rich in vitamin…',
+    logoSrc: '/images/sponsors/indomie-logo.png',
+    videoSrc: '/assets/sponsors/indomie-favourite-bowl.mp4',
+    posterSrc: '/images/sponsors/indomie-wednesday.jpg',
+  },
+  {
+    brand: 'sosa',
+    name: 'Sosa',
+    description: 'Sosa Fruit Drink.',
+    logoSrc: '/images/sponsors/sosa-fruit-drink.png',
+    videoSrc: '/assets/sponsors/sosa-fruit-drink.mp4',
+    posterSrc: '/images/sponsors/sosa-fruit-drink.png',
+  },
+]
+
+const indomieFlavours = [
+  { day: 'Monday', src: '/images/sponsors/indomie-monday.jpg' },
+  { day: 'Tuesday', src: '/images/sponsors/indomie-tuesday.jpg' },
+  { day: 'Wednesday', src: '/images/sponsors/indomie-wednesday.jpg' },
+  { day: 'Thursday', src: '/images/sponsors/indomie-thursday.jpg' },
+  { day: 'Friday', src: '/images/sponsors/indomie-friday.jpg' },
+  { day: 'Every day', src: '/images/sponsors/indomie-flavour-everyday.jpg' },
+]
+
+function visibleSponsors(sponsors: Sponsor[] | null) {
+  const registeredNames = sponsors?.map(sponsor => sponsor.name.trim().toLowerCase()) ?? []
+  return [
+    ...featuredSponsors.filter(sponsor => !registeredNames.some(name => name.includes(sponsor.name.toLowerCase()) || sponsor.name.toLowerCase().includes(name))),
+    ...(sponsors ?? []),
+  ]
+}
+
+function sponsorBrand(name: string): SponsorBrand {
+  const normalized = name.toLowerCase()
+  if (normalized.includes('monica')) return 'monica'
+  if (normalized.includes('indomie')) return 'indomie'
+  if (normalized.includes('sosa')) return 'sosa'
+  return 'other'
+}
 
 function PartnerAdvertisement() {
   const [adIndex, setAdIndex] = useState(0)
@@ -82,18 +186,13 @@ function PartnerAdvertisement() {
   }, [dismissed])
 
   return <aside className={`partner-ad-shell ${visible ? 'partner-ad-visible' : ''}`} aria-hidden={!visible}>
-    <section className="partner-ad-card" aria-label={`${ad.brand} advertisement`}>
-      <div className="partner-ad-visual" style={{ backgroundColor: ad.accent }}>
-        {ad.logoSrc
-          ? <img src={ad.logoSrc} alt="" loading="lazy"/>
-          : ad.videoSrc && visible
-            ? <video autoPlay muted loop playsInline preload="metadata" poster={ad.posterSrc}><source src={ad.videoSrc} type="video/mp4"/></video>
-            : <span>{ad.mark}</span>}
-      </div>
+    <section className={`partner-ad-card partner-ad-${ad.brand}`} aria-label={`${ad.name} advertisement`}>
+      <div className="partner-ad-visual"><img src={ad.logoSrc} alt="" loading="lazy"/></div>
       <div className="partner-ad-copy">
-        <span className="partner-ad-label">{ad.brand}</span>
+        <span className="partner-ad-label">{ad.name}</span>
         <b>{ad.headline}</b>
         <p>{ad.description}</p>
+        {ad.websiteUrl && <a className="partner-ad-link" href={ad.websiteUrl} target="_blank" rel="noreferrer">Visit Monica <ArrowRight size={13}/></a>}
       </div>
       <button className="partner-ad-close" type="button" onClick={() => { setVisible(false); setDismissed(true) }} aria-label="Close partner advertisement" tabIndex={visible ? 0 : -1}>×</button>
     </section>
@@ -108,6 +207,8 @@ function useSponsors() {
 }
 
 function sponsorLogo(sponsor: Sponsor) {
+  const featuredLogo = featuredSponsors.find(featured => sponsorBrand(featured.name) === sponsorBrand(sponsor.name))?.logoUrl
+  if (featuredLogo) return featuredLogo
   return sponsor.logoUrl || (sponsor.name.toLowerCase().includes('shamaden imole') ? '/images/shamaden-imole-foundation.jfif' : undefined)
 }
 
@@ -124,14 +225,16 @@ function BrandLoader() {
 
 function SponsorTicker() {
   const { data } = useSponsors()
-  const sponsors = data?.length ? data : null
+  const sponsors = visibleSponsors(data)
   const renderGroup = (duplicate: boolean) => <div className="sponsor-marquee-group" aria-hidden={duplicate}>
-    {sponsors ? [...sponsors, ...sponsors].map((sponsor, index) => {
-      const content = <>{sponsor.logoUrl && <img src={sponsor.logoUrl} alt="" loading="lazy"/>}<b>{sponsor.name}</b></>
+    {sponsors.map((sponsor, index) => {
+      const brand = sponsorBrand(sponsor.name)
+      const logo = sponsorLogo(sponsor)
+      const content = <><span className={`sponsor-ticker-logo sponsor-ticker-logo-${brand}`}>{logo ? <img src={logo} alt="" loading="lazy" decoding="async"/> : <span aria-hidden="true">{sponsor.name.slice(0, 2).toUpperCase()}</span>}</span><b>{sponsor.name}</b></>
       return sponsor.websiteUrl
-        ? <a className="sponsor-ticker-item" href={sponsor.websiteUrl} target="_blank" rel="noreferrer" key={`${sponsor.id}-${index}`}>{content}</a>
-        : <span className="sponsor-ticker-item" key={`${sponsor.id}-${index}`}>{content}</span>
-    }) : Array.from({ length: 8 }, (_, index) => <span className="sponsor-ticker-item sponsor-ticker-placeholder" key={index}>Sponsor opportunities</span>)}
+        ? <a className={`sponsor-ticker-item sponsor-ticker-item-${brand}`} href={sponsor.websiteUrl} target="_blank" rel="noreferrer" tabIndex={duplicate ? -1 : undefined} key={`${sponsor.id}-${index}`}>{content}</a>
+        : <span className={`sponsor-ticker-item sponsor-ticker-item-${brand}`} key={`${sponsor.id}-${index}`}>{content}</span>
+    })}
   </div>
   return <aside className="sponsor-ticker" aria-label="HSSC sponsors">
     <span className="sponsor-ticker-label">HSSC PARTNERS</span>
@@ -199,7 +302,6 @@ function HeroVideo() {
 }
 
 function Landing() {
-  const sponsorState = useSponsors()
   return <>
     <main>
       <section className="hero hero-video-stage">
@@ -226,11 +328,79 @@ function Landing() {
         <div className="stat-strip"><div><strong>06</strong><span>STEM disciplines</span></div><div><strong>20</strong><span>Educational zones</span></div><div><strong>01</strong><span>Curious community</span></div><div><strong>∞</strong><span>Ways to make a difference</span></div></div></section>
       <section className="subjects-section"><div className="section-wrap"><div className="section-kicker">Explore the disciplines</div><div className="section-heading"><h2>Six ways to see<br/><em>the world differently.</em></h2><p>Every great discovery starts with the right question. Where will yours take you?</p></div><div className="subject-grid">{subjects.map((subject, i) => { const Icon = subject.icon; return <article className="subject-card" key={subject.name}><span className="subject-number">0{i + 1}</span><Icon size={24}/><h3>{subject.name}</h3><span className="subject-arrow"><ArrowRight size={17}/></span></article> })}</div></div></section>
       <section className="journey section-wrap"><div className="section-kicker">The championship journey</div><div className="journey-grid"><div><h2>One journey.<br/><em>Room to grow.</em></h2><p>The championship begins with an online objective examination, followed by further stages. Detailed arrangements for later stages will be shared when confirmed.</p><Link className="text-link" to="/policy">Read competition policy <ArrowRight size={16}/></Link></div><div className="stage-list"><article><span>01</span><div><h3>Online objective examination</h3><p>Put your STEM knowledge to the test in a timed, online competition.</p></div><ChevronRight/></article><article className="stage-future"><span>02</span><div><h3>Physical / proving stage</h3><p>Further information will be shared by the organizers.</p></div><span className="coming-soon">DETAILS TO FOLLOW</span></article><article className="stage-future"><span>03</span><div><h3>Practical STEM stage</h3><p>Further information will be shared by the organizers.</p></div><span className="coming-soon">DETAILS TO FOLLOW</span></article><article className="stage-future"><span>04</span><div><h3>Final stage</h3><p>Further information will be shared by the organizers.</p></div><span className="coming-soon">DETAILS TO FOLLOW</span></article></div></div></section>
-      <section className="sponsor-band"><div className="section-wrap sponsor-content"><div><div className="section-kicker">Made possible together</div><h2>Backed by people<br/>who believe in <em>possibility.</em></h2><Link className="text-link" to="/sponsors">Meet our sponsors <ArrowRight size={16}/></Link></div><div className="sponsor-logos">{sponsorState.error ? <span className="sponsor-error">Sponsor information is temporarily unavailable.</span> : sponsorState.data?.map(s => { const logo = sponsorLogo(s); return <div className="sponsor-logo" key={s.id}>{logo ? <img src={logo} alt={`${s.name} logo`} loading="lazy" decoding="async"/> : <span>{s.name.slice(0,1).toUpperCase()}</span>}<b>{s.name}</b></div> })}</div></div></section>
+      <SponsorShowcase compact/>
       <section className="intro section-wrap about-preview"><div className="section-kicker">Behind the championship</div><div className="intro-grid"><h2>Built around<br/><em>possibility.</em></h2><div><p>HSSC is connected with Shamaden Imole Charity Foundation, Lagos State Interpublic School Championship, and StackThread, the technical/project team behind the broader setup.</p><Link className="text-link" to="/about">Meet the people and partners <ArrowRight size={16}/></Link></div></div></section>
       <section className="cta section-wrap"><div className="cta-inner"><div className="cta-orbit">✳</div><div className="section-kicker">Your next chapter starts here</div><h2>Have a school full<br/>of <em>bright ideas?</em></h2><p>Join the HSSC community and give your students a new way to shine.</p><Link className="button button-light" to="/register-school">Register your school <ArrowRight size={17}/></Link></div></section>
     </main>
   </>
+}
+
+function SponsorShowcase({ compact = false }: { compact?: boolean }) {
+  const [adIndex, setAdIndex] = useState(0)
+  const [videoDuration, setVideoDuration] = useState(0)
+  const activeAd = sponsorVideoAds[adIndex]
+  const advance = () => setAdIndex(index => (index + 1) % sponsorVideoAds.length)
+
+  useEffect(() => {
+    if (compact) return
+    setVideoDuration(0)
+    const delay = activeAd.videoSrc
+      ? videoDuration > 0 ? Math.max(10000, (videoDuration + 2) * 1000) : 90000
+      : 9000
+    const timeout = window.setTimeout(advance, delay)
+    return () => window.clearTimeout(timeout)
+  }, [activeAd.videoSrc, compact, videoDuration])
+
+  if (compact) {
+    return <section className="sponsor-showcase sponsor-showcase-compact" aria-label="HSSC sponsors">
+      <div className="section-wrap sponsor-showcase-inner">
+        <div className="sponsor-showcase-heading"><div><div className="section-kicker">Thank you to our sponsors</div><h2>Big ideas. <em>Great partners.</em></h2></div><Link className="sponsor-showcase-link" to="/sponsors">Meet our sponsors <ArrowRight size={16}/></Link></div>
+        <div className="sponsor-compact-grid">{featuredSponsors.map(sponsor => {
+          const brand = sponsorBrand(sponsor.name)
+          return <article className={`sponsor-compact-card sponsor-brand-${brand}`} key={sponsor.id}>
+            <img src={sponsor.logoUrl} alt={`${sponsor.name} logo`} loading="lazy" decoding="async"/>
+            <span>{sponsor.name}</span>
+          </article>
+        })}</div>
+      </div>
+    </section>
+  }
+
+  return <section className="sponsor-showcase" aria-label="HSSC sponsor video advertisements">
+    <div className="section-wrap sponsor-showcase-inner">
+      <div className="section-kicker">A big thank-you to our sponsors</div>
+      <div className="sponsor-showcase-heading"><h2>Great ideas grow<br/><em>with great partners.</em></h2><p>Watch the sponsor videos shared with the HSSC community.</p></div>
+      <article className={`sponsor-ad-player sponsor-brand-${activeAd.brand}`} aria-live="polite">
+        <div className="sponsor-ad-media">
+          {activeAd.videoSrc
+            ? <video key={activeAd.videoSrc} autoPlay muted controls playsInline preload="none" poster={activeAd.posterSrc} aria-label={`${activeAd.name} video advertisement`}
+              onLoadedMetadata={event => {
+                if (Number.isFinite(event.currentTarget.duration)) setVideoDuration(event.currentTarget.duration)
+              }}
+              onEnded={advance} onError={advance}>
+              <source src={activeAd.videoSrc} type="video/mp4"/>Your browser does not support embedded videos.
+            </video>
+            : <div className={`sponsor-ad-static sponsor-brand-${activeAd.brand}`}>
+              <img src={activeAd.logoSrc} alt={`${activeAd.name} logo`} loading="lazy" decoding="async"/>
+              <span>Discover Monica</span>
+            </div>}
+        </div>
+        <div className="sponsor-ad-copy">
+          <div className={`sponsor-ad-brandmark sponsor-brand-${activeAd.brand}`}><img src={activeAd.logoSrc} alt="" loading="lazy" decoding="async"/></div>
+          <span className="section-kicker">HSSC SPONSOR</span>
+          <h3>{activeAd.name}</h3>
+          <p>{activeAd.description}</p>
+          {activeAd.websiteUrl && <a className="sponsor-visit-link" href={activeAd.websiteUrl} target="_blank" rel="noreferrer">Visit Monica <ArrowRight size={15}/></a>}
+          <div className="sponsor-ad-controls" aria-label="Sponsor advertisement controls">
+            <button type="button" onClick={() => setAdIndex(index => (index - 1 + sponsorVideoAds.length) % sponsorVideoAds.length)}>Previous</button>
+            <span>{adIndex + 1} / {sponsorVideoAds.length}</span>
+            <button type="button" onClick={advance}>Next <ArrowRight size={14}/></button>
+          </div>
+        </div>
+      </article>
+      <div className="sponsor-flavour-grid" aria-label="Indomie flavour campaign for each day of the week">{indomieFlavours.map(flavour => <figure key={flavour.day}><img src={flavour.src} alt={`Indomie ${flavour.day} flavour campaign`} loading="lazy" decoding="async"/><figcaption>{flavour.day}</figcaption></figure>)}</div>
+    </div>
+  </section>
 }
 
 function AboutPage() {
@@ -246,7 +416,8 @@ function AboutPage() {
 
 function SponsorsPage() {
   const { data, error } = useSponsors()
-  return <main className="content-page"><div className="page-hero"><div className="section-kicker">Our partners</div><h1>Better, <em>together.</em></h1><p>Meet the supporters helping young minds explore what's possible.</p></div>{error ? <PageState title="Sponsor information unavailable" message={error}/> : !data ? <div className="page-message"><span className="loader"/><p>Loading sponsor information…</p></div> : data.length ? <div className="sponsor-page-grid">{data.map(s => { const logo = sponsorLogo(s); return <article className="sponsor-large" key={s.id}>{logo ? <div className="sponsor-large-logo"><img src={logo} alt={`${s.name} logo`} loading="lazy" decoding="async"/></div> : <span className="sponsor-initial">{s.name.slice(0,1).toUpperCase()}</span>}<span className="section-kicker">HSSC PARTNER</span><h2>{s.name}</h2>{s.organization && <p>{s.organization}</p>}{s.description && <p>{s.description}</p>}{s.websiteUrl && <a href={s.websiteUrl} target="_blank" rel="noreferrer">Visit partner website <ArrowRight size={15}/></a>}</article> })}</div> : <div className="page-message"><h2>No sponsors have been added yet.</h2></div>}</main>
+  const sponsors = visibleSponsors(data)
+  return <main className="content-page"><div className="page-hero"><div className="section-kicker">Our partners</div><h1>Better, <em>together.</em></h1><p>Meet the supporters helping young minds explore what’s possible.</p></div>{error && <p className="sponsor-page-note" role="status">Showing our featured sponsors while additional sponsor information is unavailable.</p>}<div className="sponsor-page-grid">{sponsors.map(s => { const logo = sponsorLogo(s); return <article className="sponsor-large" key={s.id}>{logo ? <div className="sponsor-large-logo"><img src={logo} alt={`${s.name} ${s.name.toLowerCase().includes('indomie') ? 'campaign' : 'logo'}`} loading="lazy" decoding="async"/></div> : <span className="sponsor-initial">{s.name.slice(0,1).toUpperCase()}</span>}<span className="section-kicker">HSSC PARTNER</span><h2>{s.name}</h2>{s.organization && <p>{s.organization}</p>}{s.description && <p>{s.description}</p>}{s.websiteUrl && <a href={s.websiteUrl} target="_blank" rel="noreferrer">Visit partner website <ArrowRight size={15}/></a>}</article> })}</div><SponsorShowcase/></main>
 }
 
 function PolicyPage() {
@@ -1405,7 +1576,9 @@ function AdminQuestionBanksPage() {
 
 function App() {
   const location = useLocation()
-  const standalone = location.pathname === '/exam' || location.pathname.startsWith('/admin')
+  const examRoute = location.pathname === '/exam' || location.pathname.startsWith('/exam/')
+  const adsAllowed = !examRoute && !location.pathname.startsWith('/admin')
+  const standalone = examRoute || location.pathname.startsWith('/admin')
   return <>{!standalone && <Header/>}<Routes>
     <Route path="/" element={<Landing/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/policy" element={<PolicyPage/>}/><Route path="/sponsors" element={<SponsorsPage/>}/>
     <Route path="/sign-in" element={<SignInPage/>}/><Route path="/register-school" element={<SchoolRegistrationPage/>}/><Route path="/register-student" element={<RegisterStudentPage/>}/>
@@ -1425,7 +1598,7 @@ function App() {
     <Route path="/admin/notifications" element={<ProtectedRoute roles={['ADMIN']}><AdminNotificationsPage/></ProtectedRoute>}/>
     <Route path="/admin/settings" element={<ProtectedRoute roles={['ADMIN']}><AdminFeature title="Competition settings" endpoint="/admin/settings"/></ProtectedRoute>}/>
     <Route path="*" element={<PageState title="Page not found" message="That page doesn't exist. Head back to the HSSC home page."/>}/>
-  </Routes>{!standalone && <Footer/>}<SponsorTicker/>{['/', '/results', '/leaderboard'].includes(location.pathname) && <PartnerAdvertisement key={location.pathname}/>}</>
+  </Routes>{!standalone && <Footer/>}{adsAllowed && <SponsorTicker/>}{adsAllowed && ['/', '/results', '/leaderboard'].includes(location.pathname) && <PartnerAdvertisement key={location.pathname}/>}</>
 }
 
 export default App
