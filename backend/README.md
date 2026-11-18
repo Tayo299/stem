@@ -18,42 +18,16 @@ Startup inserts missing district codes and zones idempotently. The database is i
 
 On Windows, after creating the `hssc` PostgreSQL login role and `hssc` database in pgAdmin, run `.\run-local.ps1` from the backend directory in a PowerShell terminal. It prompts for the database password and (optionally) initial admin credentials without storing them in the repository, generates a temporary JWT signing secret for that server process, and supplies the six configured districts and twenty zones. Keep that terminal open while testing; press Ctrl+C there to stop the API. The temporary JWT secret changes on each run, so users must sign in again after restarting.
 
-## Deploy the backend to Render
+## Deploy the backend to Railway
 
-1. Push the backend Dockerfile and this repository to GitHub. In Render, create a **New > Web Service** and select the repository.
-2. Select **Docker** as the runtime. Set **Root Directory** to `backend` and **Dockerfile Path** to `Dockerfile`. Leave the Docker command blank. Render uses the `PORT` environment variable automatically through the Spring Boot configuration.
-3. Create a Render PostgreSQL database in the **same region** as the web service. From the database's **Connect** menu, use its internal hostname, database name, user, and password. Set:
+The repository is a monorepo, and Railway's Docker build context must remain at the repository root so the backend Dockerfile can copy `backend/pom.xml` and `backend/src`.
 
-   ```text
-   DATABASE_URL=jdbc:postgresql://<internal-hostname>:5432/<database-name>
-   DATABASE_USERNAME=<database-user>
-   DATABASE_PASSWORD=<database-password>
-   ```
-
-   Use the hostname, not the full `postgres://` URL, when building the JDBC URL above.
-
-4. Add these environment variables to the web service:
-
-   ```text
-   JWT_SECRET=<base64-encoded random secret containing at least 32 bytes>
-   JWT_ISSUER=hssc-api
-   CORS_ALLOWED_ORIGINS=https://<your-deployed-frontend-domain>
-   HSSC_DISTRICT_ZONES=I=District I|Agege,Alimosho,Ifako-Ijaiye;II=District II|Ikorodu,Kosofe,Somolu;III=District III|Epe,Eti-Osa,Ibeju-Lekki,Lagos Island;IV=District IV|Apapa,Mainland,Surulere;V=District V|Ajeromi-Ifelodun,Amuwo-Odofin,Badagry,Ojo;VI=District VI|Ikeja,Mushin,Oshodi-Isolo
-   UPLOAD_DIRECTORY=/var/data/uploads
-   ```
-
-   Replace the CORS value with the frontend's exact public origin (scheme and hostname only, without a trailing slash). Generate the JWT secret locally in PowerShell with:
-
-   ```powershell
-   $bytes = New-Object byte[] 32
-   $rng = [Security.Cryptography.RandomNumberGenerator]::Create()
-   try { $rng.GetBytes($bytes) } finally { $rng.Dispose() }
-   [Convert]::ToBase64String($bytes)
-   ```
-
-5. To create the initial administrator, also set `HSSC_ADMIN_EMAIL` and `HSSC_ADMIN_PASSWORD`. Use a unique email and a strong password of at least 16 characters. Keep these values private; do not commit them to the repository.
-6. Configure a **persistent disk** on the web service mounted at `/var/data`, and choose **`/actuator/health`** as the health check path. Uploads are stored on disk; Render's default filesystem is ephemeral, so without the persistent disk uploaded registration documents and photos can be lost when the service restarts or redeploys. Persistent disks require a paid web-service plan.
-7. Deploy, then confirm the Render health check is successful. Set the deployed frontend's `VITE_API_URL` to `https://<your-backend-service>.onrender.com/api` and redeploy the frontend. The backend applies its database migrations at startup.
+1. Connect this GitHub repository and the `main` branch to a Railway service.
+2. In the service's **Settings > Build**, select **Dockerfile** as the builder and set **Dockerfile Path** to `backend/Dockerfile`. Leave the **Root Directory** at the repository root (the default); do not set it to `/backend`.
+3. Keep the watch path `/backend/**` if you want backend changes to trigger deployments.
+4. Add a Railway PostgreSQL service, then configure the backend's database connection, JWT secret, and exact frontend origin in its service variables. Required application variable names are `DATABASE_URL` (a `jdbc:postgresql://...` URL), `DATABASE_USERNAME`, `DATABASE_PASSWORD`, `JWT_SECRET` (base64-encoded with at least 32 random bytes), and `CORS_ALLOWED_ORIGINS` (frontend origin without a trailing slash). Set `UPLOAD_DIRECTORY` to a persistent volume mount path if uploaded files must survive redeploys; Railway's container filesystem is ephemeral.
+5. To create the initial administrator, also set `HSSC_ADMIN_EMAIL` and `HSSC_ADMIN_PASSWORD` (at least 16 characters). Keep credentials and secrets private; do not commit them.
+6. Generate the public domain for the backend and set the frontend's `VITE_API_URL` to `https://<backend-domain>/api`. The backend applies database migrations at startup; `/actuator/health` is its health endpoint.
 
 ## Main API
 
