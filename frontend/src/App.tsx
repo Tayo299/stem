@@ -282,7 +282,7 @@ function Header() {
 }
 
 function Footer() {
-  return <footer className="footer"><div className="footer-main"><Brand/><p>Curiosity today. Possibility tomorrow.</p><div className="footer-links"><Link to="/about">About HSSC</Link><Link to="/policy">Competition policy</Link><Link to="/sponsors">Our sponsors</Link><Link to="/register-school">Register your school</Link></div></div><nav className="footer-socials" aria-label="HSSC social media">
+  return <footer className="footer"><div className="footer-main"><Brand/><p>Curiosity today. Possibility tomorrow.</p><div className="footer-links"><Link to="/about">About HSSC</Link><Link to="/policy">Competition policy</Link><Link to="/sponsors">Our sponsors</Link><Link to="/sponsorship">Become a sponsor</Link><Link to="/register-school">Register your school</Link></div></div><nav className="footer-socials" aria-label="HSSC social media">
     <a className="footer-social-whatsapp" href="https://whatsapp.com/channel/0029VbDu29VJENy3j2dujz23" target="_blank" rel="noopener noreferrer"><MessageCircle size={19} aria-hidden="true"/><span><b>Join our WhatsApp Channel</b><small>Get HSSC news and student updates</small></span><ArrowRight size={16} aria-hidden="true"/></a>
     <a href="https://www.tiktok.com/@stemchampionship" target="_blank" rel="noopener noreferrer" aria-label="HSSC on TikTok"><Music2 size={17} aria-hidden="true"/> TikTok</a>
     <a href="https://t.me/stemchampionship" target="_blank" rel="noopener noreferrer" aria-label="HSSC on Telegram"><Send size={16} aria-hidden="true"/> Telegram</a>
@@ -334,7 +334,7 @@ function Landing() {
       <section className="subjects-section"><div className="section-wrap"><div className="section-kicker">Explore the disciplines</div><div className="section-heading"><h2>Six ways to see<br/><em>the world differently.</em></h2><p>Every great discovery starts with the right question. Where will yours take you?</p></div><div className="subject-grid">{subjects.map((subject, i) => { const Icon = subject.icon; return <article className="subject-card" key={subject.name}><span className="subject-number">0{i + 1}</span><Icon size={24}/><h3>{subject.name}</h3><span className="subject-arrow"><ArrowRight size={17}/></span></article> })}</div></div></section>
       <section className="journey section-wrap"><div className="section-kicker">The championship journey</div><div className="journey-grid"><div><h2>One journey.<br/><em>Room to grow.</em></h2><p>The championship begins with an online objective examination, followed by further stages. Detailed arrangements for later stages will be shared when confirmed.</p><Link className="text-link" to="/policy">Read competition policy <ArrowRight size={16}/></Link></div><div className="stage-list"><article><span>01</span><div><h3>Online objective examination</h3><p>Put your STEM knowledge to the test in a timed, online competition.</p></div><ChevronRight/></article><article className="stage-future"><span>02</span><div><h3>Physical / proving stage</h3><p>Further information will be shared by the organizers.</p></div><span className="coming-soon">DETAILS TO FOLLOW</span></article><article className="stage-future"><span>03</span><div><h3>Practical STEM stage</h3><p>Further information will be shared by the organizers.</p></div><span className="coming-soon">DETAILS TO FOLLOW</span></article><article className="stage-future"><span>04</span><div><h3>Final stage</h3><p>Further information will be shared by the organizers.</p></div><span className="coming-soon">DETAILS TO FOLLOW</span></article></div></div></section>
       <SponsorShowcase compact/>
-      <SponsorPackages/>
+      <SponsorOpportunityCta/>
       <section className="intro section-wrap about-preview"><div className="section-kicker">Behind the championship</div><div className="intro-grid"><h2>Built around<br/><em>possibility.</em></h2><div><p>HSSC is connected with Shamaden Imole Charity Foundation, Lagos State Interpublic School Championship, and StackThread, the technical/project team behind the broader setup.</p><Link className="text-link" to="/about">Meet the people and partners <ArrowRight size={16}/></Link></div></div></section>
       <section className="cta section-wrap"><div className="cta-inner"><div className="cta-orbit">✳</div><div className="section-kicker">Your next chapter starts here</div><h2>Have a school full<br/>of <em>bright ideas?</em></h2><p>Join the HSSC community and give your students a new way to shine.</p><Link className="button button-light" to="/register-school">Register your school <ArrowRight size={17}/></Link></div></section>
     </main>
@@ -406,6 +406,13 @@ function SponsorShowcase({ compact = false }: { compact?: boolean }) {
       </article>
       <div className="sponsor-flavour-grid" aria-label="Indomie flavour campaign for each day of the week">{indomieFlavours.map(flavour => <figure key={flavour.day}><img src={flavour.src} alt={`Indomie ${flavour.day} flavour campaign`} loading="lazy" decoding="async"/><figcaption>{flavour.day}</figcaption></figure>)}</div>
     </div>
+  </section>
+}
+
+function SponsorOpportunityCta() {
+  return <section className="sponsor-opportunity-cta section-wrap">
+    <div><div className="section-kicker">For organizations and brands</div><h2>Partner with HSSC<br/><em>and back bright ideas.</em></h2><p>Explore sponsorship opportunities and support the next generation of STEM innovators.</p></div>
+    <Link className="button button-light" to="/sponsorship">Become a sponsor <ArrowRight size={16}/></Link>
   </section>
 }
 
@@ -490,6 +497,13 @@ function SponsorPaymentReturn() {
         {error && <p role="alert">{error}</p>}
         <Link className="button button-dark" to="/">Return to HSSC <ArrowRight size={16}/></Link>
       </section>}
+  </main>
+}
+
+function SponsorshipPage() {
+  return <main className="sponsorship-page content-page">
+    <div className="page-hero"><div className="section-kicker">Partner with HSSC</div><h1>Support the next<br/><em>generation of innovators.</em></h1><p>Choose a proposed sponsorship level, share your organization’s details, and continue to secure Paystack checkout.</p></div>
+    <SponsorPackages/>
   </main>
 }
 
@@ -1710,7 +1724,7 @@ function App() {
   const adsAllowed = !examRoute && !location.pathname.startsWith('/admin')
   const standalone = examRoute || location.pathname.startsWith('/admin')
   return <>{!standalone && <Header/>}<Routes>
-    <Route path="/" element={<Landing/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/policy" element={<PolicyPage/>}/><Route path="/sponsors" element={<SponsorsPage/>}/>
+    <Route path="/" element={<Landing/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/policy" element={<PolicyPage/>}/><Route path="/sponsors" element={<SponsorsPage/>}/><Route path="/sponsorship" element={<SponsorshipPage/>}/>
     <Route path="/sign-in" element={<SignInPage/>}/><Route path="/register-school" element={<SchoolRegistrationPage/>}/><Route path="/register-student" element={<RegisterStudentPage/>}/>
     <Route path="/admin/login" element={<AdminSignInPage/>}/>
     <Route path="/dashboard" element={<ProtectedRoute roles={['STUDENT']}><Dashboard/></ProtectedRoute>}/>
