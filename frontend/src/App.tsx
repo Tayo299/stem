@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { ChangeEvent, FormEvent, ReactNode } from 'react'
 import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
-import { ArrowRight, Atom, Bell, BookOpen, Check, ChevronRight, CircleHelp, FlaskConical, Leaf, LockKeyhole, Menu, Microscope, Monitor, ShieldCheck, Trophy, X } from 'lucide-react'
+import { ArrowRight, Atom, Bell, BookOpen, Check, ChevronRight, CircleHelp, FlaskConical, Leaf, LockKeyhole, Menu, MessageCircle, Microscope, Monitor, Music2, Send, ShieldCheck, Trophy, X } from 'lucide-react'
 import { api, downloadDocument, type District } from './api'
 import { useAuth } from './auth'
 
@@ -276,12 +276,17 @@ function Header() {
         <NavLink to="/about" onClick={closeMenu}>About Us</NavLink><NavLink to="/sponsors" onClick={closeMenu}>Sponsors</NavLink>
         <Link to="/register-school" onClick={closeMenu}>Register</Link><Link className="nav-signin" to="/sign-in" onClick={closeMenu}>Sign in <ArrowRight size={15}/></Link>
       </>}
+      <a className="nav-whatsapp" href="https://whatsapp.com/channel/0029VbDu29VJENy3j2dujz23" target="_blank" rel="noopener noreferrer" onClick={closeMenu}><MessageCircle size={17} aria-hidden="true"/> Join WhatsApp Updates</a>
     </nav>
   </header>
 }
 
 function Footer() {
-  return <footer className="footer"><div className="footer-main"><Brand/><p>Curiosity today. Possibility tomorrow.</p><div className="footer-links"><Link to="/about">About HSSC</Link><Link to="/policy">Competition policy</Link><Link to="/sponsors">Our sponsors</Link><Link to="/register-school">Register your school</Link></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} High School STEM Championship</span><span>Built for the next generation of thinkers.</span></div></footer>
+  return <footer className="footer"><div className="footer-main"><Brand/><p>Curiosity today. Possibility tomorrow.</p><div className="footer-links"><Link to="/about">About HSSC</Link><Link to="/policy">Competition policy</Link><Link to="/sponsors">Our sponsors</Link><Link to="/register-school">Register your school</Link></div></div><nav className="footer-socials" aria-label="HSSC social media">
+    <a className="footer-social-whatsapp" href="https://whatsapp.com/channel/0029VbDu29VJENy3j2dujz23" target="_blank" rel="noopener noreferrer"><MessageCircle size={19} aria-hidden="true"/><span><b>Join our WhatsApp Channel</b><small>Get HSSC news and student updates</small></span><ArrowRight size={16} aria-hidden="true"/></a>
+    <a href="https://www.tiktok.com/@stemchampionship" target="_blank" rel="noopener noreferrer" aria-label="HSSC on TikTok"><Music2 size={17} aria-hidden="true"/> TikTok</a>
+    <a href="https://t.me/stemchampionship" target="_blank" rel="noopener noreferrer" aria-label="HSSC on Telegram"><Send size={16} aria-hidden="true"/> Telegram</a>
+  </nav><div className="footer-bottom"><span>© {new Date().getFullYear()} High School STEM Championship</span><span>Built for the next generation of thinkers.</span></div></footer>
 }
 
 function HeroVideo() {
