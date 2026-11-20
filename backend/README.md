@@ -27,7 +27,8 @@ The repository is a monorepo, and Railway's Docker build context must remain at 
 3. Keep the watch path `/backend/**` if you want backend changes to trigger deployments.
 4. Add a Railway PostgreSQL service, then configure the backend's database connection, JWT secret, and exact frontend origin in its service variables. Required application variable names are `DATABASE_URL` (a `jdbc:postgresql://...` URL), `DATABASE_USERNAME`, `DATABASE_PASSWORD`, `JWT_SECRET` (base64-encoded with at least 32 random bytes), and `CORS_ALLOWED_ORIGINS` (frontend origin without a trailing slash). Set `UPLOAD_DIRECTORY` to a persistent volume mount path if uploaded files must survive redeploys; Railway's container filesystem is ephemeral.
 5. To create the initial administrator, also set `HSSC_ADMIN_EMAIL` and `HSSC_ADMIN_PASSWORD` (at least 16 characters). Keep credentials and secrets private; do not commit them.
-6. Generate the public domain for the backend and set the frontend's `VITE_API_URL` to `https://<backend-domain>/api`. The backend applies database migrations at startup; `/actuator/health` is its health endpoint.
+6. To enable sponsor checkout, set `PAYSTACK_SECRET_KEY` to a newly rotated Paystack secret in Railway only, and set `SPONSORSHIP_CALLBACK_URL` to `https://<frontend-domain>/sponsorship/return`. Never put the Paystack secret in the frontend or source control. Sponsor package prices are validated by the backend (Bronze ₦10,000,000, Silver ₦25,000,000, Gold ₦50,000,000); the landing page collects organization/contact details, and administrators can review submissions at `/admin/sponsorships`.
+7. Generate the public domain for the backend and set the frontend's `VITE_API_URL` to `https://<backend-domain>/api`. The backend applies database migrations at startup; `/actuator/health` is its health endpoint.
 
 ## Main API
 

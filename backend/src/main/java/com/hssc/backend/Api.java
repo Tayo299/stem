@@ -31,6 +31,16 @@ public final class Api {
             @NotBlank @Size(max=200) String fullName,@NotNull @Min(1) @Max(120) Integer age,
             @NotBlank @Size(max=40) String gender) {}
     public record RegistrationResponse(UUID id, String status, boolean possibleDuplicate, String message) {}
+    public record SponsorCheckoutRequest(@NotBlank @Size(max=20) String packageCode,
+            @NotBlank @Size(max=180) String organizationName,@NotBlank @Size(max=180) String contactName,
+            @NotBlank @Email @Size(max=254) String email,
+            @NotBlank @Pattern(regexp="^(?=(?:\\D*\\d){7,15}\\D*$)[+()0-9 .-]+$") @Size(max=40) String phone,
+            @Size(max=255) String website,@Size(max=1200) String message,@AssertTrue boolean privacyConsent) {}
+    public record SponsorCheckoutResponse(String authorizationUrl,String reference) {}
+    public record SponsorVerificationResponse(String status,String packageName,long amountNgn) {}
+    public record AdminSponsorContributionResponse(UUID id,String packageCode,String packageName,long amountNgn,
+            String organizationName,String contactName,String email,String phone,String website,String message,
+            boolean privacyConsent,String status,String reference,Instant createdAt,Instant paidAt) {}
     public record QuestionInput(@NotBlank @Size(max=3000) String prompt, @NotBlank @Size(max=80) String subject,
             @Min(1) @Max(1000) int points, @NotNull @Size(min=2,max=8) Map<@NotBlank String,@NotBlank String> options,
             String correctOption, @Min(1) @Max(400) Integer sourceNumber, Boolean anonymous) {

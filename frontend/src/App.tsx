@@ -334,6 +334,7 @@ function Landing() {
       <section className="subjects-section"><div className="section-wrap"><div className="section-kicker">Explore the disciplines</div><div className="section-heading"><h2>Six ways to see<br/><em>the world differently.</em></h2><p>Every great discovery starts with the right question. Where will yours take you?</p></div><div className="subject-grid">{subjects.map((subject, i) => { const Icon = subject.icon; return <article className="subject-card" key={subject.name}><span className="subject-number">0{i + 1}</span><Icon size={24}/><h3>{subject.name}</h3><span className="subject-arrow"><ArrowRight size={17}/></span></article> })}</div></div></section>
       <section className="journey section-wrap"><div className="section-kicker">The championship journey</div><div className="journey-grid"><div><h2>One journey.<br/><em>Room to grow.</em></h2><p>The championship begins with an online objective examination, followed by further stages. Detailed arrangements for later stages will be shared when confirmed.</p><Link className="text-link" to="/policy">Read competition policy <ArrowRight size={16}/></Link></div><div className="stage-list"><article><span>01</span><div><h3>Online objective examination</h3><p>Put your STEM knowledge to the test in a timed, online competition.</p></div><ChevronRight/></article><article className="stage-future"><span>02</span><div><h3>Physical / proving stage</h3><p>Further information will be shared by the organizers.</p></div><span className="coming-soon">DETAILS TO FOLLOW</span></article><article className="stage-future"><span>03</span><div><h3>Practical STEM stage</h3><p>Further information will be shared by the organizers.</p></div><span className="coming-soon">DETAILS TO FOLLOW</span></article><article className="stage-future"><span>04</span><div><h3>Final stage</h3><p>Further information will be shared by the organizers.</p></div><span className="coming-soon">DETAILS TO FOLLOW</span></article></div></div></section>
       <SponsorShowcase compact/>
+      <SponsorPackages/>
       <section className="intro section-wrap about-preview"><div className="section-kicker">Behind the championship</div><div className="intro-grid"><h2>Built around<br/><em>possibility.</em></h2><div><p>HSSC is connected with Shamaden Imole Charity Foundation, Lagos State Interpublic School Championship, and StackThread, the technical/project team behind the broader setup.</p><Link className="text-link" to="/about">Meet the people and partners <ArrowRight size={16}/></Link></div></div></section>
       <section className="cta section-wrap"><div className="cta-inner"><div className="cta-orbit">✳</div><div className="section-kicker">Your next chapter starts here</div><h2>Have a school full<br/>of <em>bright ideas?</em></h2><p>Join the HSSC community and give your students a new way to shine.</p><Link className="button button-light" to="/register-school">Register your school <ArrowRight size={17}/></Link></div></section>
     </main>
@@ -406,6 +407,90 @@ function SponsorShowcase({ compact = false }: { compact?: boolean }) {
       <div className="sponsor-flavour-grid" aria-label="Indomie flavour campaign for each day of the week">{indomieFlavours.map(flavour => <figure key={flavour.day}><img src={flavour.src} alt={`Indomie ${flavour.day} flavour campaign`} loading="lazy" decoding="async"/><figcaption>{flavour.day}</figcaption></figure>)}</div>
     </div>
   </section>
+}
+
+const sponsorPackages = [
+  { code: 'BRONZE', name: 'Bronze Partner', amount: 10_000_000, description: 'Support student access to STEM learning and championship activities.', benefits: ['Recognition on the HSSC sponsor page', 'Acknowledgment in selected HSSC updates', 'Logo inclusion in agreed event materials'] },
+  { code: 'SILVER', name: 'Silver Partner', amount: 25_000_000, description: 'A larger contribution with expanded partner visibility.', benefits: ['All Bronze partner recognition', 'Prominent logo placement in agreed materials', 'Dedicated sponsor spotlight on HSSC channels'] },
+  { code: 'GOLD', name: 'Gold Partner', amount: 50_000_000, description: 'Our highest listed contribution level and partner visibility.', benefits: ['All Silver partner recognition', 'Top-tier placement in agreed sponsor materials', 'Featured partner spotlight and event acknowledgment'] },
+]
+
+function SponsorPackages() {
+  const [selectedPackage, setSelectedPackage] = useState(sponsorPackages[0].code)
+  const [details, setDetails] = useState({ organizationName: '', contactName: '', email: '', phone: '', website: '', message: '', privacyConsent: false })
+  const [busy, setBusy] = useState(false)
+  const [error, setError] = useState('')
+  const money = new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', maximumFractionDigits: 0 })
+
+  async function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    setBusy(true)
+    setError('')
+    try {
+      const checkout = await api<{ authorizationUrl: string; reference: string }>('/sponsorships/checkout', {
+        method: 'POST',
+        body: JSON.stringify({ ...details, packageCode: selectedPackage }),
+      })
+      window.location.assign(checkout.authorizationUrl)
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Unable to start secure payment. Please try again.')
+      setBusy(false)
+    }
+  }
+
+  return <section className="sponsor-packages section-wrap" id="sponsorship" aria-labelledby="sponsor-packages-title">
+    <div className="section-kicker">Partner with HSSC</div>
+    <div className="sponsor-packages-heading"><div><h2 id="sponsor-packages-title">Invest in the next<br/><em>generation of innovators.</em></h2><p>Select a contribution level and share your organization’s contact details to continue to secure Paystack checkout.</p></div><span className="sponsor-packages-minimum">From <b>₦10 million</b></span></div>
+    <div className="sponsor-package-grid">{sponsorPackages.map(plan => <button type="button" className={`sponsor-package-card ${selectedPackage === plan.code ? 'selected' : ''}`} key={plan.code} aria-pressed={selectedPackage === plan.code} onClick={() => setSelectedPackage(plan.code)}>
+      <span className="section-kicker">{plan.name}</span><strong>{money.format(plan.amount)}</strong><p>{plan.description}</p><ul>{plan.benefits.map(benefit => <li key={benefit}><Check size={15}/>{benefit}</li>)}</ul><span className="sponsor-package-select">{selectedPackage === plan.code ? 'Selected' : 'Select package'}</span>
+    </button>)}</div>
+    <p className="sponsor-package-note">These are proposed partner-recognition options. HSSC will confirm availability, placement, and final deliverables with your organization.</p>
+    <form className="sponsor-inquiry-form" onSubmit={submit}>
+      <div className="sponsor-inquiry-heading"><div className="section-kicker">Start a sponsorship</div><h3>Organization details</h3></div>
+      {error && <div className="form-error" role="alert">{error}</div>}
+      <div className="sponsor-inquiry-fields">
+        <label>Organization / brand name<input required maxLength={180} value={details.organizationName} onChange={event => setDetails({ ...details, organizationName: event.target.value })} autoComplete="organization"/></label>
+        <label>Contact person<input required maxLength={180} value={details.contactName} onChange={event => setDetails({ ...details, contactName: event.target.value })} autoComplete="name"/></label>
+        <label>Work email<input required type="email" maxLength={254} value={details.email} onChange={event => setDetails({ ...details, email: event.target.value })} autoComplete="email"/></label>
+        <label>Phone number<input required type="tel" maxLength={40} value={details.phone} onChange={event => setDetails({ ...details, phone: event.target.value })} autoComplete="tel"/></label>
+        <label>Website (optional)<input type="url" maxLength={255} placeholder="https://" value={details.website} onChange={event => setDetails({ ...details, website: event.target.value })} autoComplete="url"/></label>
+        <label className="sponsor-inquiry-message">How would you like to support HSSC? (optional)<textarea maxLength={1200} rows={3} value={details.message} onChange={event => setDetails({ ...details, message: event.target.value })}/></label>
+      </div>
+      <label className="sponsor-consent"><input type="checkbox" required checked={details.privacyConsent} onChange={event => setDetails({ ...details, privacyConsent: event.target.checked })}/>I agree that HSSC may use these details to contact my organization about this sponsorship and payment.</label>
+      <button className="button button-dark sponsor-checkout-button" disabled={busy}>{busy ? 'Connecting to Paystack…' : `Continue with ${money.format(sponsorPackages.find(plan => plan.code === selectedPackage)!.amount)}`} <ArrowRight size={16}/></button>
+      <p className="sponsor-secure-note">Your payment is processed securely by Paystack. HSSC does not receive or store card details.</p>
+    </form>
+  </section>
+}
+
+function SponsorPaymentReturn() {
+  const [searchParams] = useSearchParams()
+  const reference = searchParams.get('reference') || searchParams.get('trxref') || ''
+  const [result, setResult] = useState<{ status: string; packageName: string; amountNgn: number } | null>(null)
+  const [error, setError] = useState('')
+  const money = new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', maximumFractionDigits: 0 })
+  useEffect(() => {
+    if (!reference) {
+      setError('No payment reference was returned. If you completed payment, contact HSSC so the team can check it.')
+      return
+    }
+    let active = true
+    api<{ status: string; packageName: string; amountNgn: number }>(`/sponsorships/verify/${encodeURIComponent(reference)}`)
+      .then(data => { if (active) setResult(data) })
+      .catch(e => { if (active) setError(e instanceof Error ? e.message : 'Unable to verify this payment yet.') })
+    return () => { active = false }
+  }, [reference])
+  return <main className="sponsor-payment-result section-wrap">
+    <div className="section-kicker">HSSC sponsorship</div>
+    {!result && !error ? <div className="page-message"><span className="loader"/><p>Verifying your payment with Paystack…</p></div> :
+      <section className={`sponsor-payment-status ${result?.status === 'PAID' ? 'paid' : ''}`} aria-live="polite">
+        <span className="section-kicker">{result?.status === 'PAID' ? 'PAYMENT CONFIRMED' : result?.status === 'PENDING' ? 'PAYMENT PENDING' : 'PAYMENT NOT CONFIRMED'}</span>
+        <h1>{result?.status === 'PAID' ? 'Thank you for supporting HSSC.' : result?.status === 'PENDING' ? 'We are still checking your payment.' : 'We could not confirm the payment.'}</h1>
+        {result && <p>{result.packageName} · {money.format(result.amountNgn)} · Reference {reference}</p>}
+        {error && <p role="alert">{error}</p>}
+        <Link className="button button-dark" to="/">Return to HSSC <ArrowRight size={16}/></Link>
+      </section>}
+  </main>
 }
 
 function AboutPage() {
@@ -977,6 +1062,7 @@ function AdminSidebar({ active }: { active: string }) {
     ['Review results', '/admin/results'],
     ['Leaderboard', '/admin/leaderboard'],
     ['Question banks', '/admin/question-banks'],
+    ['Sponsorships', '/admin/sponsorships'],
     ['Notifications', '/admin/notifications'],
     ['Settings', '/admin/settings'],
   ]
@@ -996,6 +1082,45 @@ function AdminTopbar({ title }: { title: string }) {
 }
 
 type AdminNotification = { id: string; type: string; message: string; read: boolean; createdAt: string; actionUrl: string | null }
+
+type AdminSponsorContribution = {
+  id: string
+  packageCode: string
+  packageName: string
+  amountNgn: number
+  organizationName: string
+  contactName: string
+  email: string
+  phone: string
+  website: string | null
+  message: string | null
+  privacyConsent: boolean
+  status: string
+  reference: string
+  createdAt: string
+  paidAt: string | null
+}
+
+function AdminSponsorshipsPage() {
+  const { token } = useAuth()
+  const [contributions, setContributions] = useState<AdminSponsorContribution[] | null>(null)
+  const [error, setError] = useState('')
+  useEffect(() => {
+    api<AdminSponsorContribution[]>('/admin/sponsorships', {}, token)
+      .then(setContributions)
+      .catch(e => setError(e instanceof Error ? e.message : 'Unable to load sponsor inquiries.'))
+  }, [token])
+  const money = new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', maximumFractionDigits: 0 })
+  return <main className="admin-page"><AdminSidebar active="Sponsorships"/><section className="admin-main"><AdminTopbar title="Sponsorship inquiries"/><div className="admin-content">
+    <div className="section-kicker">HSSC PARTNERSHIPS</div><h1>Sponsorship inquiries</h1><p>Organization and contact details are visible only to signed-in administrators.</p>
+    {error ? <div className="form-error" role="alert">{error}</div> : !contributions ? <div className="page-message"><span className="loader"/><p>Loading sponsorship inquiries…</p></div> : contributions.length === 0 ? <div className="empty-inline">No sponsorship inquiries have been submitted yet.</div> :
+      <div className="admin-sponsorship-list">{contributions.map(item => <article key={item.id}>
+        <div className="admin-sponsorship-heading"><div><span className="section-kicker">{item.packageName} · {money.format(item.amountNgn)}</span><h2>{item.organizationName}</h2></div><span className={`status-pill ${item.status === 'PAID' ? 'status-open' : ''}`}>{item.status}</span></div>
+        <dl><div><dt>Contact</dt><dd>{item.contactName}</dd></div><div><dt>Email</dt><dd><a href={`mailto:${item.email}`}>{item.email}</a></dd></div><div><dt>Phone</dt><dd><a href={`tel:${item.phone}`}>{item.phone}</a></dd></div>{item.website && <div><dt>Website</dt><dd><a href={item.website} target="_blank" rel="noreferrer">{item.website}</a></dd></div>}<div><dt>Submitted</dt><dd>{new Date(item.createdAt).toLocaleString()}</dd></div>{item.paidAt && <div><dt>Paid</dt><dd>{new Date(item.paidAt).toLocaleString()}</dd></div>}</dl>
+        <p className="admin-sponsorship-message">{item.privacyConsent ? 'Contact consent recorded.' : 'Contact consent not recorded.'}{item.message ? ` ${item.message}` : ''}</p>
+      </article>)}</div>}
+  </div></section></main>
+}
 
 function AdminNotificationsPage() {
   const { token } = useAuth()
@@ -1601,6 +1726,8 @@ function App() {
     <Route path="/admin/leaderboard" element={<ProtectedRoute roles={['ADMIN']}><AdminLeaderboardPage/></ProtectedRoute>}/>
     <Route path="/admin/question-banks" element={<ProtectedRoute roles={['ADMIN']}><AdminQuestionBanksPage/></ProtectedRoute>}/>
     <Route path="/admin/notifications" element={<ProtectedRoute roles={['ADMIN']}><AdminNotificationsPage/></ProtectedRoute>}/>
+    <Route path="/admin/sponsorships" element={<ProtectedRoute roles={['ADMIN']}><AdminSponsorshipsPage/></ProtectedRoute>}/>
+    <Route path="/sponsorship/return" element={<SponsorPaymentReturn/>}/>
     <Route path="/admin/settings" element={<ProtectedRoute roles={['ADMIN']}><AdminFeature title="Competition settings" endpoint="/admin/settings"/></ProtectedRoute>}/>
     <Route path="*" element={<PageState title="Page not found" message="That page doesn't exist. Head back to the HSSC home page."/>}/>
   </Routes>{!standalone && <Footer/>}{adsAllowed && <SponsorTicker/>}{adsAllowed && ['/', '/results', '/leaderboard'].includes(location.pathname) && <PartnerAdvertisement key={location.pathname}/>}</>

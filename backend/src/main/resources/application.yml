@@ -49,3 +49,7 @@ hssc:
     admin-password: ${HSSC_ADMIN_PASSWORD:}
     # Format: CODE=District Name|Zone One,Zone Two;CODE2=Another District|Zone A
     district-zones: ${HSSC_DISTRICT_ZONES:}
+  sponsorship:
+    callback-url: ${SPONSORSHIP_CALLBACK_URL:}
+paystack:
+  secret-key: ${PAYSTACK_SECRET_KEY:}
