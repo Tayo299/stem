@@ -51,5 +51,7 @@ hssc:
     district-zones: ${HSSC_DISTRICT_ZONES:}
   sponsorship:
     callback-url: ${SPONSORSHIP_CALLBACK_URL:}
+  donation:
+    callback-url: ${DONATION_CALLBACK_URL:}
 paystack:
   secret-key: ${PAYSTACK_SECRET_KEY:}

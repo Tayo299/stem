@@ -38,6 +38,9 @@ public final class Api {
             @Size(max=255) String website,@Size(max=1200) String message,@AssertTrue boolean privacyConsent) {}
     public record SponsorCheckoutResponse(String authorizationUrl,String reference) {}
     public record SponsorVerificationResponse(String status,String packageName,long amountNgn) {}
+    public record DonationCheckoutRequest(@NotNull @DecimalMin("50") @Digits(integer=15,fraction=0) BigDecimal amountNgn,
+            @NotBlank @Size(max=180) String donorName,@NotBlank @Email @Size(max=254) String email) {}
+    public record DonationVerificationResponse(String status,long amountNgn) {}
     public record AdminSponsorContributionResponse(UUID id,String packageCode,String packageName,long amountNgn,
             String organizationName,String contactName,String email,String phone,String website,String message,
             boolean privacyConsent,String status,String reference,Instant createdAt,Instant paidAt) {}

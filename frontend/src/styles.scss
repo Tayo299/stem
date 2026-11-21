@@ -37,6 +37,8 @@ button { color: inherit; }
 .main-nav .nav-whatsapp { display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 13px;border-radius:4px;background:#16844b;color:#fff;font-size:10px;font-weight:700;white-space:nowrap;box-shadow:0 3px 10px rgba(22,132,75,.18);transition:background .2s,transform .2s; }
 .main-nav .nav-whatsapp:hover { background:#116c3d;color:#fff;transform:translateY(-1px); }
 .user-dashboard-header .main-nav .nav-whatsapp { color:#fff; }
+.main-nav .nav-donate { display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:10px 13px;border:1px solid #c8d598;border-radius:4px;background:#e8efc5;color:#264b36;font-size:10px;font-weight:700;white-space:nowrap;transition:background .2s,transform .2s; }
+.main-nav .nav-donate:hover { background:#dce8a9;color:#1b3c2a;transform:translateY(-1px); }
 .mobile-menu { display: none; border: 0; background: none; cursor: pointer; }
 .hero { min-height: 640px; padding: 64px 10% 80px; display: grid; grid-template-columns: 1.04fr .96fr; align-items: center; position: relative; overflow: hidden; }
 .hero-copy { max-width: 610px; position: relative; z-index: 2; padding-bottom: 17px; }
@@ -536,6 +538,21 @@ h1 em,h2 em { color: #648148; font-style: normal; }
 .sponsor-payment-status h1 { margin:13px 0 10px;font-size:clamp(27px,4vw,42px);letter-spacing:-.06em; }
 .sponsor-payment-status p { color:#68776c;font-size:10px;line-height:1.7;overflow-wrap:anywhere; }
 .sponsor-payment-status .button { margin-top:10px; }
+.donation-page { padding-bottom:88px; }
+.donation-page .page-hero { padding-bottom:38px; }
+.donation-form { display:grid;gap:13px;max-width:540px;margin:34px auto 0;padding:27px;background:linear-gradient(145deg,#fff,#f5f7f1);border:1px solid #dfe7dc;box-shadow:0 12px 28px rgba(24,62,43,.045); }
+.donation-form>.section-kicker { color:#397c70; }
+.donation-form h2 { margin:0;font-size:25px;letter-spacing:-.05em; }
+.donation-form>p { margin:-5px 0 3px;color:#718078;font-size:10px;line-height:1.7; }
+.donation-form>label { display:grid;gap:7px;color:#49564a;font-size:9px;font-weight:700; }
+.donation-form>label>input,.donation-amount-input { width:100%;min-height:42px;border:1px solid #d9dfd6;border-radius:2px;background:#fcfdf9; }
+.donation-form>label>input { padding:10px 11px;outline:none;color:var(--ink);font:11px 'DM Sans',sans-serif; }
+.donation-amount-input { display:flex;align-items:center;padding-left:12px;color:#627267; }
+.donation-amount-input:focus-within,.donation-form>label>input:focus { border-color:#719170;box-shadow:0 0 0 2px rgba(72,113,76,.1); }
+.donation-amount-input input { width:100%;height:40px;padding:10px 11px;border:0;outline:none;background:transparent;color:var(--ink);font:700 16px 'DM Sans',sans-serif; }
+.donation-form>label>small { color:#7b877c;font-size:8px;font-weight:400; }
+.donation-checkout-button { justify-self:start;margin-top:3px; }
+.donation-secure-note { color:#7b877c;font-size:8px; }
 .admin-sponsorship-list { display:grid;gap:12px;margin-top:22px; }
 .admin-sponsorship-list>article { padding:18px;background:#fff;border:1px solid #e2e9e1;box-shadow:0 8px 22px rgba(26,63,49,.04); }
 .admin-sponsorship-heading { display:flex;align-items:flex-start;justify-content:space-between;gap:14px;padding-bottom:13px;border-bottom:1px solid #e8ede6; }
@@ -559,6 +576,9 @@ h1 em,h2 em { color: #648148; font-style: normal; }
   .sponsor-inquiry-fields { grid-template-columns:1fr; }
   .sponsor-inquiry-message { grid-column:auto; }
   .sponsor-payment-status { padding:32px 18px; }
+  .donation-page { padding-bottom:62px; }
+  .donation-form { margin-top:25px;padding:21px 17px; }
+  .main-nav.nav-open .nav-donate { justify-content:center;width:max-content;margin-top:12px;padding:11px 14px;border:1px solid #c8d598;font-size:11px; }
   .admin-sponsorship-list dl { grid-template-columns:repeat(2,minmax(0,1fr)); }
 }
 .school-participant-list { display:grid;gap:9px; }.school-participant-row { display:grid;grid-template-columns:84px minmax(0,1fr) auto;align-items:center;gap:16px;padding:11px;border:1px solid #e2eae2;background:rgba(255,255,255,.82); }.school-participant-row>.participant-review-photo { width:84px;height:98px; }.school-participant-row h3 { margin:6px 0;font-size:16px; }.school-participant-row p { margin:0;color:#728078;font-size:10px; }.school-participant-row p span { padding:0 4px;color:#3b8b79; }.school-participant-row .section-kicker { font-size:7px;color:#397c70; }.school-roster-number { color:#477a61;font-size:8px;letter-spacing:.14em; }

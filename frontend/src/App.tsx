@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { ChangeEvent, FormEvent, ReactNode } from 'react'
 import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
-import { ArrowRight, Atom, Bell, BookOpen, Check, ChevronRight, CircleHelp, FlaskConical, Leaf, LockKeyhole, Menu, MessageCircle, Microscope, Monitor, Music2, Send, ShieldCheck, Trophy, X } from 'lucide-react'
+import { ArrowRight, Atom, Bell, BookOpen, Check, ChevronRight, CircleHelp, FlaskConical, Heart, Leaf, LockKeyhole, Menu, MessageCircle, Microscope, Monitor, Music2, Send, ShieldCheck, Trophy, X } from 'lucide-react'
 import { api, downloadDocument, type District } from './api'
 import { useAuth } from './auth'
 
@@ -277,12 +277,13 @@ function Header() {
         <Link to="/register-school" onClick={closeMenu}>Register</Link><Link className="nav-signin" to="/sign-in" onClick={closeMenu}>Sign in <ArrowRight size={15}/></Link>
       </>}
       <a className="nav-whatsapp" href="https://whatsapp.com/channel/0029VbDu29VJENy3j2dujz23" target="_blank" rel="noopener noreferrer" onClick={closeMenu}><MessageCircle size={17} aria-hidden="true"/> Join WhatsApp Updates</a>
+      <Link className="nav-donate" to="/donate" onClick={closeMenu}><Heart size={15} aria-hidden="true"/> Donate</Link>
     </nav>
   </header>
 }
 
 function Footer() {
-  return <footer className="footer"><div className="footer-main"><Brand/><p>Curiosity today. Possibility tomorrow.</p><div className="footer-links"><Link to="/about">About HSSC</Link><Link to="/policy">Competition policy</Link><Link to="/sponsors">Our sponsors</Link><Link to="/sponsorship">Become a sponsor</Link><Link to="/register-school">Register your school</Link></div></div><nav className="footer-socials" aria-label="HSSC social media">
+  return <footer className="footer"><div className="footer-main"><Brand/><p>Curiosity today. Possibility tomorrow.</p><div className="footer-links"><Link to="/about">About HSSC</Link><Link to="/policy">Competition policy</Link><Link to="/sponsors">Our sponsors</Link><Link to="/sponsorship">Become a sponsor</Link><Link to="/donate">Donate to HSSC</Link><Link to="/register-school">Register your school</Link></div></div><nav className="footer-socials" aria-label="HSSC social media">
     <a className="footer-social-whatsapp" href="https://whatsapp.com/channel/0029VbDu29VJENy3j2dujz23" target="_blank" rel="noopener noreferrer"><MessageCircle size={19} aria-hidden="true"/><span><b>Join our WhatsApp Channel</b><small>Get HSSC news and student updates</small></span><ArrowRight size={16} aria-hidden="true"/></a>
     <a href="https://www.tiktok.com/@stemchampionship" target="_blank" rel="noopener noreferrer" aria-label="HSSC on TikTok"><Music2 size={17} aria-hidden="true"/> TikTok</a>
     <a href="https://t.me/stemchampionship" target="_blank" rel="noopener noreferrer" aria-label="HSSC on Telegram"><Send size={16} aria-hidden="true"/> Telegram</a>
@@ -312,7 +313,7 @@ function Landing() {
       <section className="hero hero-video-stage">
         <HeroVideo/>
         <div className="hero-copy"><div className="eyebrow"><span className="eyebrow-line"/>A brighter future starts with a question</div><h1>High School<br/><em>STEM Championship.</em></h1><p className="hero-lede">A science championship for secondary-school students to put ideas into action and explore what they can achieve.</p>
-          <div className="hero-actions"><Link className="button button-dark" to="/register-school">Register your school <ArrowRight size={17}/></Link><Link className="button button-outline" to="/sign-in">Sign in</Link></div>
+          <div className="hero-actions"><Link className="button button-dark" to="/register-school">Register your school <ArrowRight size={17}/></Link><Link className="button button-outline" to="/sign-in">Sign in</Link><Link className="button button-outline" to="/donate"><Heart size={16}/> Donate</Link></div>
           <div className="hero-meta"><span><ShieldCheck size={16}/> For secondary school students</span><span><span className="meta-dot"/> Lagos, Nigeria</span></div>
         </div>
         <div className="hero-index">EST. FOR THE CURIOUS <span>01 — 06</span></div>
@@ -500,6 +501,80 @@ function SponsorPaymentReturn() {
   </main>
 }
 
+function DonationPage() {
+  const [amount, setAmount] = useState('')
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [busy, setBusy] = useState(false)
+  const [error, setError] = useState('')
+  const money = new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', maximumFractionDigits: 0 })
+
+  async function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    const amountNgn = Number(amount)
+    if (!Number.isSafeInteger(amountNgn) || amountNgn < 50) {
+      setError('Enter a whole donation amount of at least ₦50.')
+      return
+    }
+    setBusy(true)
+    setError('')
+    try {
+      const checkout = await api<{ authorizationUrl: string; reference: string }>('/donations/checkout', {
+        method: 'POST',
+        body: JSON.stringify({ amountNgn, donorName: name, email }),
+      })
+      window.location.assign(checkout.authorizationUrl)
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Unable to start secure payment. Please try again.')
+      setBusy(false)
+    }
+  }
+
+  return <main className="content-page donation-page">
+    <div className="page-hero"><div className="section-kicker">Support HSSC</div><h1>Help curiosity<br/><em>go further.</em></h1><p>Your contribution helps us create more opportunities for students to explore science, technology, engineering, and mathematics.</p></div>
+    <form className="donation-form" onSubmit={event => void submit(event)}>
+      <div className="section-kicker">Make a donation</div><h2>Choose your amount</h2>
+      <p>Enter any amount from ₦50. Your secure payment will be processed by Paystack.</p>
+      {error && <div className="form-error" role="alert">{error}</div>}
+      <label>Donation amount (NGN)<span className="donation-amount-input"><span>₦</span><input required type="number" inputMode="numeric" min="50" step="1" value={amount} onChange={event => setAmount(event.target.value)} placeholder="e.g. 5,000" aria-describedby="donation-amount-hint"/></span><small id="donation-amount-hint">{amount && Number.isSafeInteger(Number(amount)) && Number(amount) >= 50 ? `You’re donating ${money.format(Number(amount))}.` : 'Minimum donation: ₦50. Enter a whole amount in naira.'}</small></label>
+      <label>Your name<input required maxLength={180} value={name} onChange={event => setName(event.target.value)} autoComplete="name"/></label>
+      <label>Email address<input required type="email" maxLength={254} value={email} onChange={event => setEmail(event.target.value)} autoComplete="email"/></label>
+      <button className="button button-dark donation-checkout-button" disabled={busy}>{busy ? 'Connecting to Paystack…' : 'Continue to Paystack'} <ArrowRight size={16}/></button>
+      <small className="donation-secure-note">Your payment is processed securely by Paystack. HSSC does not receive or store card details.</small>
+    </form>
+  </main>
+}
+
+function DonationPaymentReturn() {
+  const [searchParams] = useSearchParams()
+  const reference = searchParams.get('reference') || searchParams.get('trxref') || ''
+  const [result, setResult] = useState<{ status: string; amountNgn: number } | null>(null)
+  const [error, setError] = useState('')
+  const money = new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', maximumFractionDigits: 0 })
+  useEffect(() => {
+    if (!reference) {
+      setError('No payment reference was returned. If you completed payment, contact HSSC so the team can check it.')
+      return
+    }
+    let active = true
+    api<{ status: string; amountNgn: number }>(`/donations/verify/${encodeURIComponent(reference)}`)
+      .then(data => { if (active) setResult(data) })
+      .catch(e => { if (active) setError(e instanceof Error ? e.message : 'Unable to verify this payment yet.') })
+    return () => { active = false }
+  }, [reference])
+  return <main className="sponsor-payment-result section-wrap">
+    <div className="section-kicker">HSSC donation</div>
+    {!result && !error ? <div className="page-message"><span className="loader"/><p>Verifying your payment with Paystack…</p></div> :
+      <section className={`sponsor-payment-status ${result?.status === 'PAID' ? 'paid' : ''}`} aria-live="polite">
+        <span className="section-kicker">{result?.status === 'PAID' ? 'DONATION CONFIRMED' : result?.status === 'PENDING' ? 'PAYMENT PENDING' : 'PAYMENT NOT CONFIRMED'}</span>
+        <h1>{result?.status === 'PAID' ? 'Thank you for supporting HSSC.' : result?.status === 'PENDING' ? 'We are still checking your payment.' : 'We could not confirm the payment.'}</h1>
+        {result && <p>{money.format(result.amountNgn)} · Reference {reference}</p>}
+        {error && <p role="alert">{error}</p>}
+        <Link className="button button-dark" to="/">Return to HSSC <ArrowRight size={16}/></Link>
+      </section>}
+  </main>
+}
+
 function SponsorshipPage() {
   return <main className="sponsorship-page content-page">
     <div className="page-hero"><div className="section-kicker">Partner with HSSC</div><h1>Support the next<br/><em>generation of innovators.</em></h1><p>Choose a proposed sponsorship level, share your organization’s details, and continue to secure Paystack checkout.</p></div>
@@ -512,7 +587,6 @@ function AboutPage() {
     <div className="page-hero"><div className="section-kicker">The people and organizations behind HSSC</div><h1>About <em>us.</em></h1><p>HSSC brings together schools, partners, and a technical team around a STEM competition for secondary-school students.</p></div>
     <section className="about-grid" aria-label="HSSC partners and team">
       <article className="about-card about-card-foundation"><div className="about-card-logo about-card-logo-foundation"><img src="/images/shamaden-imole-foundation.jfif" alt="Shamaden Imole logo" loading="lazy" decoding="async"/></div><span className="section-kicker">FOUNDATION</span><h2>Shamaden Imole Charity Foundation</h2><p>Organization associated with the championship.</p></article>
-      <article className="about-card"><div className="about-card-logo about-card-logo-lagos"><img src="/images/lagos-interpublic-championship.png" alt="Lagos State Inter-Public Schools Championship logo" loading="lazy" decoding="async"/></div><span className="section-kicker">SCHOOL CHAMPIONSHIP</span><h2>Lagos State Inter-Public Schools Championship</h2><p>Partner associated with the HSSC competition.</p></article>
       <article className="about-card about-card-stackthread"><div className="about-card-logo about-card-logo-stackthread"><img src="/images/stackthread-labs-technology.png" alt="StackThread Labs & Technology logo" loading="lazy" decoding="async"/></div><span className="section-kicker">TECHNICAL / PROJECT TEAM</span><h2>StackThread Labs &amp; Technology</h2><p>Involved in the development and broader setup of the project, including the online platform and the physical/proving stages leading toward the practical competition.</p><div className="about-team-member"><span>TEAM MEMBER</span><b>Godwin Dickson</b><b>Olaniran Feranmi</b><b>Adepoju Ridwan</b><b>Gbadamosi Adekunle</b></div></article>
     </section>
   </main>
@@ -1724,7 +1798,7 @@ function App() {
   const adsAllowed = !examRoute && !location.pathname.startsWith('/admin')
   const standalone = examRoute || location.pathname.startsWith('/admin')
   return <>{!standalone && <Header/>}<Routes>
-    <Route path="/" element={<Landing/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/policy" element={<PolicyPage/>}/><Route path="/sponsors" element={<SponsorsPage/>}/><Route path="/sponsorship" element={<SponsorshipPage/>}/>
+    <Route path="/" element={<Landing/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/policy" element={<PolicyPage/>}/><Route path="/sponsors" element={<SponsorsPage/>}/><Route path="/sponsorship" element={<SponsorshipPage/>}/><Route path="/donate" element={<DonationPage/>}/>
     <Route path="/sign-in" element={<SignInPage/>}/><Route path="/register-school" element={<SchoolRegistrationPage/>}/><Route path="/register-student" element={<RegisterStudentPage/>}/>
     <Route path="/admin/login" element={<AdminSignInPage/>}/>
     <Route path="/dashboard" element={<ProtectedRoute roles={['STUDENT']}><Dashboard/></ProtectedRoute>}/>
@@ -1742,6 +1816,7 @@ function App() {
     <Route path="/admin/notifications" element={<ProtectedRoute roles={['ADMIN']}><AdminNotificationsPage/></ProtectedRoute>}/>
     <Route path="/admin/sponsorships" element={<ProtectedRoute roles={['ADMIN']}><AdminSponsorshipsPage/></ProtectedRoute>}/>
     <Route path="/sponsorship/return" element={<SponsorPaymentReturn/>}/>
+    <Route path="/donate/return" element={<DonationPaymentReturn/>}/>
     <Route path="/admin/settings" element={<ProtectedRoute roles={['ADMIN']}><AdminFeature title="Competition settings" endpoint="/admin/settings"/></ProtectedRoute>}/>
     <Route path="*" element={<PageState title="Page not found" message="That page doesn't exist. Head back to the HSSC home page."/>}/>
   </Routes>{!standalone && <Footer/>}{adsAllowed && <SponsorTicker/>}{adsAllowed && ['/', '/results', '/leaderboard'].includes(location.pathname) && <PartnerAdvertisement key={location.pathname}/>}</>

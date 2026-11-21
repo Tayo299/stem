@@ -67,6 +67,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(a->a.requestMatchers("/api/auth/**","/api/registrations/**","/api/schools/register","/api/schools/register/with-students","/api/students/register",
                         "/api/schools","/api/sponsors","/api/policy",
                         "/api/sponsorships/checkout","/api/sponsorships/verify/**",
+                        "/api/donations/checkout","/api/donations/verify/**",
                         "/api/districts","/api/exams/start","/api/exams/*/attempts","/api/exams/attempts/**","/api/exams/*/time",
                         "/api/exams/*/events","/actuator/health/**").permitAll()
                         .requestMatchers(org.springframework.http.HttpMethod.PUT,"/api/exams/*/answers/*").permitAll()
