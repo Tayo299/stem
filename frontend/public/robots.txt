@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /dashboard
+Disallow: /school/
+Disallow: /exam/
+Disallow: /results
+Disallow: /leaderboard
+Disallow: /sign-in
+Disallow: /sponsorship/return
+Disallow: /donate/return
+
+Sitemap: https://stemeduhub.com/sitemap.xml

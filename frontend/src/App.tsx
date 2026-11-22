@@ -1794,6 +1794,42 @@ function AdminQuestionBanksPage() {
 
 function App() {
   const location = useLocation()
+  useEffect(() => {
+    const routeMeta: Record<string, { title: string; description: string }> = {
+      '/': { title: 'HSSC — High School STEM Championship', description: 'Join the HSSC STEM competition for secondary-school students in Nigeria.' },
+      '/about': { title: 'About HSSC | High School STEM Championship', description: 'Meet the people and organizations behind the High School STEM Championship.' },
+      '/policy': { title: 'Competition Policy | HSSC', description: 'Read the rules, stages and competition policy for HSSC.' },
+      '/sponsors': { title: 'HSSC Sponsors', description: 'Meet the sponsors supporting the High School STEM Championship.' },
+      '/sponsorship': { title: 'Become an HSSC Sponsor', description: 'Partner with HSSC and support STEM education for secondary-school students.' },
+      '/donate': { title: 'Donate to HSSC', description: 'Make a secure Paystack donation to support the High School STEM Championship.' },
+      '/register-school': { title: 'Register a School | HSSC', description: 'Register your secondary school for the High School STEM Championship.' },
+      '/sign-in': { title: 'Sign In | HSSC', description: 'Sign in to the HSSC school or student competition portal.' },
+    }
+    const meta = routeMeta[location.pathname]
+    document.title = meta?.title || 'HSSC — High School STEM Championship'
+    let description = document.querySelector<HTMLMetaElement>('meta[name="description"]')
+    if (!description) {
+      description = document.createElement('meta')
+      description.name = 'description'
+      document.head.appendChild(description)
+    }
+    description.content = meta?.description || 'A STEM competition for secondary-school students in Nigeria.'
+    let canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]')
+    if (!canonical) {
+      canonical = document.createElement('link')
+      canonical.rel = 'canonical'
+      document.head.appendChild(canonical)
+    }
+    canonical.href = `https://stemeduhub.com${location.pathname === '/' ? '/' : location.pathname}`
+    let robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]')
+    if (!robots) {
+      robots = document.createElement('meta')
+      robots.name = 'robots'
+      document.head.appendChild(robots)
+    }
+    const privateRoute = location.pathname.startsWith('/admin') || location.pathname.startsWith('/exam') || location.pathname.startsWith('/dashboard') || location.pathname.startsWith('/school') || ['/results', '/leaderboard', '/sign-in', '/sponsorship/return', '/donate/return'].some(path => location.pathname === path)
+    robots.content = privateRoute ? 'noindex, follow' : 'index, follow, max-image-preview:large'
+  }, [location.pathname])
   const examRoute = location.pathname === '/exam' || location.pathname.startsWith('/exam/')
   const adsAllowed = !examRoute && !location.pathname.startsWith('/admin')
   const standalone = examRoute || location.pathname.startsWith('/admin')
